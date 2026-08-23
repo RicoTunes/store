@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "dna_ok": true,
+  "score": 100,
+  "issues": [],
+  "missing_sections": [],
+  "thin_sections": [],
+  "route_gaps": [],
+  "passes": 0,
+  "repairs": [],
+  "publish_allowed": false
+}
