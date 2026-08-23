@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "engine": "AIIE",
+  "level": "lite",
+  "enabled": true,
+  "auth_context": true,
+  "flows": [
+    "login",
+    "signup",
+    "session"
+  ],
+  "custodial": false,
+  "message": "AIIE lite \u2014 AuthContext + login/signup routes when intent.auth",
+  "implemented": true,
+  "ts": 1786905938.6021345
+}
