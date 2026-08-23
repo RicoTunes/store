@@ -1,0 +1,41 @@
+{
+  "engine": "SIEE",
+  "version": 1,
+  "events": [
+    {
+      "ts": 1786905931.1278818,
+      "kind": "dsdqe",
+      "ok": false,
+      "overall": 83.5,
+      "status": "best_effort",
+      "polishPasses": 2
+    },
+    {
+      "ts": 1786905938.5990984,
+      "kind": "bible_refinement",
+      "ok": false,
+      "lessons": [
+        "visual_qa_fail"
+      ],
+      "section_order": null
+    },
+    {
+      "ts": 1786905938.601858,
+      "kind": "build",
+      "ok": true,
+      "compile_mode": "vite",
+      "publish_allowed": false,
+      "fixer_passes": 0,
+      "bible_ok": false
+    }
+  ],
+  "last_event": {
+    "ts": 1786905938.601858,
+    "kind": "build",
+    "ok": true,
+    "compile_mode": "vite",
+    "publish_allowed": false,
+    "fixer_passes": 0,
+    "bible_ok": false
+  }
+}
