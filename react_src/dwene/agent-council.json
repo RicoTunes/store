@@ -1,0 +1,448 @@
+{
+  "agents": [
+    {
+      "id": "architect",
+      "name": "Architect",
+      "icon": "drafting-compass"
+    },
+    {
+      "id": "design",
+      "name": "Design System",
+      "icon": "palette"
+    },
+    {
+      "id": "content",
+      "name": "Content",
+      "icon": "pen-fancy"
+    },
+    {
+      "id": "component",
+      "name": "Component",
+      "icon": "cubes"
+    },
+    {
+      "id": "runtime",
+      "name": "Runtime",
+      "icon": "server"
+    },
+    {
+      "id": "composer",
+      "name": "Composer",
+      "icon": "layer-group"
+    },
+    {
+      "id": "build",
+      "name": "Build",
+      "icon": "bolt"
+    },
+    {
+      "id": "fixer",
+      "name": "Fixer",
+      "icon": "wrench"
+    },
+    {
+      "id": "review",
+      "name": "Review",
+      "icon": "check-circle"
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "inspire",
+      "status": "done",
+      "app_kind": "chat",
+      "crawl_ok": false,
+      "reference_url": "",
+      "section_anchors": [],
+      "theme_locked": false,
+      "suggested_title": "RicoGram",
+      "stance": "blueprint_not_clone"
+    },
+    {
+      "id": "architect_plan",
+      "status": "done",
+      "source": "llm",
+      "vertical": "chat",
+      "pages": [
+        "home",
+        "features",
+        "security",
+        "download",
+        "support"
+      ]
+    },
+    {
+      "id": "architect",
+      "status": "done",
+      "intent": {
+        "cart": false,
+        "auth": true,
+        "multipage": true,
+        "marketing_only": false,
+        "admin": false,
+        "chat": true,
+        "blog": false,
+        "crypto": false,
+        "social": false,
+        "ai_messenger": false,
+        "agent": false,
+        "dashboard": false,
+        "saas": false,
+        "booking": false,
+        "menu": false,
+        "orders": false,
+        "portal": false,
+        "vertical": "chat",
+        "business_template": "",
+        "modules": [
+          "auth",
+          "messenger",
+          "profile",
+          "friends"
+        ],
+        "from_scratch": true,
+        "product_family": "messenger",
+        "product_category": "12 \u2014 Messaging & Chat",
+        "catalog_match": {
+          "alias": "",
+          "score": 37,
+          "design_family": "social"
+        },
+        "design_family": "social",
+        "compliance": []
+      },
+      "business_template": "",
+      "modules": [
+        "auth",
+        "messenger",
+        "profile",
+        "friends"
+      ]
+    },
+    {
+      "id": "bible_pre",
+      "status": "skipped",
+      "error": "cannot import name 'run_bible_pre_design' from 'beam_graph.react_workspace.bible' (/app/beam_graph/react_workspace/bible/__init__.py)"
+    },
+    {
+      "id": "design",
+      "status": "done",
+      "vision_polish": {
+        "atmosphere": "playful",
+        "motion": "subtle",
+        "density": "comfortable"
+      },
+      "design_variant": "night",
+      "archetype": "neo-brutalist",
+      "heroStrategy": "no-hero",
+      "navPattern": "floating",
+      "noveltyScore": 0.7807,
+      "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
+      "designSeed": "ac3d30ce13a5a600",
+      "cardStrategy": "cards",
+      "artMood": "bold",
+      "sectionInvention": null
+    },
+    {
+      "id": "content",
+      "status": "done",
+      "source": null
+    },
+    {
+      "id": "component",
+      "status": "done",
+      "stats": {
+        "created": [],
+        "reused": [
+          "Button",
+          "Container",
+          "Section",
+          "Hero",
+          "Gallery",
+          "FeatureGrid",
+          "CTA",
+          "Pricing",
+          "FAQ",
+          "Testimonials",
+          "Timeline",
+          "ProcessSteps",
+          "StatStrip",
+          "Comparison",
+          "TeamGrid",
+          "Editorial",
+          "Showcase",
+          "ContactForm",
+          "ProductGrid",
+          "ChatShell",
+          "BlogFeed",
+          "WalletPanel",
+          "MenuBoard",
+          "BookingShell",
+          "OrdersBoard",
+          "SocialFeed",
+          "ProfileShell",
+          "FriendsShell",
+          "GroupsShell",
+          "JobsShell",
+          "SavedShell",
+          "ExploreShell",
+          "ReelsShell",
+          "NotifsShell",
+          "ReportsShell",
+          "BrandPagesShell",
+          "AiMessengerShell",
+          "AgentConsole",
+          "DashboardShell",
+          "PortalShell",
+          "DirectoryShell",
+          "Navbar",
+          "Footer",
+          "MarketingLayout",
+          "SocialLayout",
+          "MessengerLayout"
+        ]
+      }
+    },
+    {
+      "id": "runtime",
+      "status": "done",
+      "files": [
+        "src/services/apiClient.ts",
+        "src/config/site.ts",
+        "src/contexts/AuthContext.tsx",
+        "src/components/layout/AuthSplitLayout.tsx",
+        "src/pages/LoginPage.tsx",
+        "src/pages/RegisterPage.tsx",
+        "src/pages/ForgotPasswordPage.tsx",
+        "src/pages/ResetPasswordPage.tsx",
+        "src/components/routing/ProtectedRoute.tsx",
+        "src/contexts/CartContext.tsx",
+        "src/contexts/WalletContext.tsx",
+        "src/app/Providers.tsx",
+        "public/robots.txt",
+        "public/sitemap.xml",
+        "dwene/seo.json",
+        "index.html",
+        "dwene/design-variants.json"
+      ],
+      "intent": {
+        "cart": false,
+        "auth": true,
+        "multipage": true,
+        "marketing_only": false,
+        "admin": false,
+        "chat": true,
+        "blog": false,
+        "crypto": false,
+        "social": false,
+        "ai_messenger": false,
+        "agent": false,
+        "dashboard": false,
+        "saas": false,
+        "booking": false,
+        "menu": false,
+        "orders": false,
+        "portal": false,
+        "vertical": "chat",
+        "business_template": "",
+        "modules": [
+          "auth",
+          "messenger",
+          "profile",
+          "friends"
+        ],
+        "from_scratch": true,
+        "product_family": "messenger",
+        "product_category": "12 \u2014 Messaging & Chat",
+        "catalog_match": {
+          "alias": "",
+          "score": 37,
+          "design_family": "social"
+        },
+        "design_family": "social",
+        "compliance": []
+      }
+    },
+    {
+      "id": "fixer",
+      "status": "done",
+      "passes": 0,
+      "ok": true,
+      "issues": [],
+      "repairs": []
+    },
+    {
+      "id": "composer",
+      "status": "done",
+      "files": [
+        "src/pages/HomePage.tsx",
+        "src/pages/ContactPage.tsx",
+        "src/pages/FeaturesPage.tsx",
+        "src/pages/SecurityPage.tsx",
+        "src/pages/DownloadPage.tsx",
+        "src/pages/SupportPage.tsx",
+        "src/pages/MessagesPage.tsx",
+        "src/pages/ProfilePage.tsx",
+        "src/pages/FriendsPage.tsx",
+        "src/App.tsx",
+        "src/main.tsx",
+        "src/design-system/product-design.css",
+        "src/index.css"
+      ]
+    },
+    {
+      "id": "similarity",
+      "status": "pass",
+      "noveltyScore": 0.7807,
+      "similarity": {
+        "heroSimilarity": 1.0,
+        "navSimilarity": 0.0,
+        "section_orderSimilarity": 0.0667,
+        "gridSimilarity": 0.0,
+        "chromeSimilarity": 0.0,
+        "card_strategySimilarity": 0.0,
+        "typographySimilarity": 0.0,
+        "densitySimilarity": 0.0,
+        "motionSimilarity": 0.0,
+        "layoutSimilarity": 0.0,
+        "backgroundSimilarity": 1.0,
+        "hero_compositionSimilarity": 0.0,
+        "slider_architectureSimilarity": 1.0,
+        "image_transitionSimilarity": 0.0,
+        "indicator_styleSimilarity": 0.0,
+        "indicator_positionSimilarity": 0.0,
+        "overallSimilarity": 0.2193,
+        "structuralSimilarity": 0.3147,
+        "match": "EsQ-oKABxv0FymDQSbttkU5d5cPOmXXj0U4-v3QKuLs"
+      },
+      "regens": 0
+    },
+    {
+      "id": "supreme_quality",
+      "status": "best_effort",
+      "ok": false,
+      "overall": 83.5,
+      "failing": [
+        "visualExcellence",
+        "ux",
+        "accessibility",
+        "originality",
+        "overall"
+      ],
+      "polishPasses": 2,
+      "structuralRegen": false,
+      "artMood": "bold"
+    },
+    {
+      "id": "visual_builder",
+      "status": "done",
+      "engines": [
+        "VCAE",
+        "VCME",
+        "VRSCE",
+        "LAEE",
+        "ACLE",
+        "VBLE"
+      ],
+      "nodes": 19,
+      "rules": 2
+    },
+    {
+      "id": "admin_os",
+      "status": "skipped",
+      "reason": "intent.admin off"
+    },
+    {
+      "id": "build",
+      "status": "done",
+      "compile_mode": "vite",
+      "base_href": "/api/ai/sites/dwene-site-17ee6196/",
+      "dist": "/data/generated_docs/dwene-site-17ee6196/dist"
+    },
+    {
+      "id": "review",
+      "status": "done",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "id": "deploy_governance",
+      "status": "done",
+      "publish_allowed": true
+    },
+    {
+      "id": "bible_06_react_architecture",
+      "status": "pass",
+      "ok": true,
+      "message": "React architecture inventory (tokens, pages, DNA, registry)"
+    },
+    {
+      "id": "bible_07_interaction_motion",
+      "status": "pass",
+      "ok": true,
+      "message": "MIXE \u2014 framer-motion layer with prefers-reduced-motion"
+    },
+    {
+      "id": "bible_08_visual_qa",
+      "status": "fail",
+      "ok": false,
+      "message": null
+    },
+    {
+      "id": "bible_09_responsive",
+      "status": "pass",
+      "ok": true,
+      "message": "Responsive strategy + chrome breakpoint + Playwright mobile probe"
+    },
+    {
+      "id": "bible_10_performance",
+      "status": "pass",
+      "ok": true,
+      "message": "Performance lite \u2014 compile mode + lazy image + console probe"
+    },
+    {
+      "id": "bible_11_accessibility",
+      "status": "pass",
+      "ok": true,
+      "message": "Accessibility gate \u2014 reduced motion, landmarks, axe-core"
+    },
+    {
+      "id": "bible_12_security",
+      "status": "pass",
+      "ok": true,
+      "message": "Security gate \u2014 secret scan + intent auth/admin coherence"
+    },
+    {
+      "id": "bible_13_functional",
+      "status": "fail",
+      "ok": false,
+      "message": "Functional QA \u2014 DNA journey map + Playwright browser journeys"
+    },
+    {
+      "id": "bible_14_refinement_memory",
+      "status": "pass",
+      "ok": true,
+      "message": "Creative memory + SIEE refinement events"
+    },
+    {
+      "id": "bible_hq",
+      "status": "done",
+      "ok": false,
+      "blockers": [
+        "13_functional",
+        "08_visual_qa",
+        "playwright_e2e"
+      ]
+    },
+    {
+      "id": "siee",
+      "status": "done"
+    },
+    {
+      "id": "engine_layer",
+      "status": "done",
+      "implemented": 26,
+      "total": 26
+    }
+  ]
+}
