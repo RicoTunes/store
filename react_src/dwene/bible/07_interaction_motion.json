@@ -1,0 +1,9 @@
+{
+  "engine": "07_interaction_motion",
+  "ok": true,
+  "blocking": false,
+  "reduced_motion": true,
+  "three": false,
+  "files": [],
+  "message": "MIXE \u2014 framer-motion layer with prefers-reduced-motion"
+}
