@@ -1,0 +1,267 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "layout": "MessengerLayout",
+      "route": "/",
+      "sections": [
+        {
+          "body": "Private conversations for RicoGram. Search people, open a thread, and keep chatting \u2014 original branded messenger experience.",
+          "chrome": "brutalist",
+          "component": "ChatShell",
+          "id": "chat-shell",
+          "kind": "chat",
+          "page": "home",
+          "presentation": "cards",
+          "title": "RicoGram Messages"
+        }
+      ],
+      "title": "Messages"
+    },
+    {
+      "id": "contact",
+      "layout": "MarketingLayout",
+      "route": "/contact",
+      "sections": [
+        {
+          "body": "Reach the RicoGram team \u2014 we respond within one business day and are happy to help with clear next steps for whatever you need.",
+          "chrome": "brutalist",
+          "component": "Hero",
+          "id": "contact-hero",
+          "kind": "hero",
+          "page": "contact",
+          "presentation": "cards",
+          "title": "Contact us"
+        },
+        {
+          "body": "RicoGram helps people feel informed, supported, and confident.",
+          "chrome": "brutalist",
+          "component": "ContactForm",
+          "id": "contact-form",
+          "kind": "contact",
+          "page": "contact",
+          "presentation": "cards",
+          "title": "Send a message"
+        },
+        {
+          "body": "Hours, location, and what to expect when you contact RicoGram. We keep responses clear so you always know the next step.",
+          "chrome": "brutalist",
+          "component": "FAQ",
+          "id": "contact-faq",
+          "kind": "faq",
+          "page": "contact",
+          "presentation": "cards",
+          "title": "Before you write"
+        }
+      ],
+      "title": "Contact"
+    },
+    {
+      "id": "features",
+      "layout": "MarketingLayout",
+      "route": "/features",
+      "sections": [
+        {
+          "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Hero",
+          "id": "features-hero",
+          "kind": "hero",
+          "page": "features",
+          "presentation": "cards",
+          "title": "Features"
+        },
+        {
+          "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Section",
+          "id": "features-body",
+          "kind": "text",
+          "page": "features",
+          "presentation": "cards",
+          "title": "About features"
+        },
+        {
+          "body": "Reach out to RicoGram and we will respond within one business day.",
+          "chrome": "brutalist",
+          "component": "CTA",
+          "id": "features-cta",
+          "kind": "cta",
+          "page": "features",
+          "presentation": "cards",
+          "title": "Ready when you are"
+        }
+      ],
+      "title": "Features"
+    },
+    {
+      "id": "security",
+      "layout": "MarketingLayout",
+      "route": "/security",
+      "sections": [
+        {
+          "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Hero",
+          "id": "security-hero",
+          "kind": "hero",
+          "page": "security",
+          "presentation": "cards",
+          "title": "Security"
+        },
+        {
+          "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Section",
+          "id": "security-body",
+          "kind": "text",
+          "page": "security",
+          "presentation": "cards",
+          "title": "About security"
+        },
+        {
+          "body": "Reach out to RicoGram and we will respond within one business day.",
+          "chrome": "brutalist",
+          "component": "CTA",
+          "id": "security-cta",
+          "kind": "cta",
+          "page": "security",
+          "presentation": "cards",
+          "title": "Ready when you are"
+        }
+      ],
+      "title": "Security"
+    },
+    {
+      "id": "download",
+      "layout": "MarketingLayout",
+      "route": "/download",
+      "sections": [
+        {
+          "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Hero",
+          "id": "download-hero",
+          "kind": "hero",
+          "page": "download",
+          "presentation": "cards",
+          "title": "Download"
+        },
+        {
+          "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Section",
+          "id": "download-body",
+          "kind": "text",
+          "page": "download",
+          "presentation": "cards",
+          "title": "About download"
+        },
+        {
+          "body": "Reach out to RicoGram and we will respond within one business day.",
+          "chrome": "brutalist",
+          "component": "CTA",
+          "id": "download-cta",
+          "kind": "cta",
+          "page": "download",
+          "presentation": "cards",
+          "title": "Ready when you are"
+        }
+      ],
+      "title": "Download"
+    },
+    {
+      "id": "support",
+      "layout": "MarketingLayout",
+      "route": "/support",
+      "sections": [
+        {
+          "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Hero",
+          "id": "support-hero",
+          "kind": "hero",
+          "page": "support",
+          "presentation": "cards",
+          "title": "Support"
+        },
+        {
+          "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+          "chrome": "brutalist",
+          "component": "Section",
+          "id": "support-body",
+          "kind": "text",
+          "page": "support",
+          "presentation": "cards",
+          "title": "About support"
+        },
+        {
+          "body": "Reach out to RicoGram and we will respond within one business day.",
+          "chrome": "brutalist",
+          "component": "CTA",
+          "id": "support-cta",
+          "kind": "cta",
+          "page": "support",
+          "presentation": "cards",
+          "title": "Ready when you are"
+        }
+      ],
+      "title": "Support"
+    },
+    {
+      "id": "messages",
+      "layout": "MarketingLayout",
+      "route": "/messages",
+      "sections": [
+        {
+          "body": "Messages workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
+          "chrome": "brutalist",
+          "component": "ChatShell",
+          "id": "messages-chat",
+          "kind": "chat",
+          "page": "messages",
+          "presentation": "cards",
+          "title": "RicoGram Messages"
+        }
+      ],
+      "title": "Messages"
+    },
+    {
+      "id": "profile",
+      "layout": "MarketingLayout",
+      "route": "/profile",
+      "sections": [
+        {
+          "body": "Profile workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
+          "chrome": "brutalist",
+          "component": "ProfileShell",
+          "id": "profile-profile",
+          "kind": "profile",
+          "page": "profile",
+          "presentation": "cards",
+          "title": "RicoGram Profile"
+        }
+      ],
+      "title": "Profile"
+    },
+    {
+      "id": "friends",
+      "layout": "MarketingLayout",
+      "route": "/friends",
+      "sections": [
+        {
+          "body": "Friends workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
+          "chrome": "brutalist",
+          "component": "FriendsShell",
+          "id": "friends-friends",
+          "kind": "friends",
+          "page": "friends",
+          "presentation": "cards",
+          "title": "RicoGram Friends"
+        }
+      ],
+      "title": "Friends"
+    }
+  ],
+  "version": 1
+}
