@@ -1,0 +1,18 @@
+{
+  "engine": "14_refinement_memory",
+  "ts": 1786905938.5989895,
+  "brand": null,
+  "personality": null,
+  "section_order": null,
+  "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
+  "lessons": [
+    {
+      "kind": "visual_qa_fail",
+      "hint": "Strengthen section invention / copy density before publish",
+      "findings": 3
+    }
+  ],
+  "user_prefs": {},
+  "quality_overall": 83.5,
+  "gates_ok": false
+}
