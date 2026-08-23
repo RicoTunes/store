@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "engine": "SMIE",
+  "level": "lite",
+  "contexts": [
+    "AuthContext.tsx",
+    "CartContext.tsx",
+    "WalletContext.tsx"
+  ],
+  "stores": {
+    "auth": true,
+    "cart": true,
+    "wallet": true
+  },
+  "planned": [
+    "AuthContext"
+  ],
+  "message": "SMIE lite \u2014 React context inventory from DNA + src/contexts",
+  "implemented": true,
+  "ts": 1786905938.6020997
+}
