@@ -1,0 +1,13 @@
+{
+  "title": "RicoGram",
+  "description": "RicoGram is a secure messenger for private chats and lively group spaces. Share crystal-clear media, run rooms with real controls, and keep your messages where they belong \u2014 in your hands.",
+  "og": {
+    "title": "RicoGram",
+    "description": "RicoGram is a secure messenger for private chats and lively group spaces. Share crystal-clear media, run rooms with real controls, and keep your messages where they belong \u2014 in your hands.",
+    "type": "website"
+  },
+  "routes": [
+    "/",
+    "/contact"
+  ]
+}
