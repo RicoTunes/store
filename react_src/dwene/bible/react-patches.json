@@ -1,0 +1,8 @@
+{
+  "engine": "react_patch",
+  "ok": true,
+  "patch_count": 0,
+  "patches": [],
+  "applied": [],
+  "message": "Targeted React patches from Visual/Functional QA"
+}
