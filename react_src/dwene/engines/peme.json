@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "engine": "PEME",
+  "level": "lite",
+  "catalog": [
+    {
+      "id": "paystack_checkout",
+      "category": "payments",
+      "status": "built-in"
+    },
+    {
+      "id": "ethers_wallet",
+      "category": "crypto",
+      "status": "built-in"
+    },
+    {
+      "id": "framer_motion",
+      "category": "experience",
+      "status": "built-in"
+    },
+    {
+      "id": "seo_layer",
+      "category": "growth",
+      "status": "built-in"
+    },
+    {
+      "id": "design_canvas",
+      "category": "design",
+      "status": "built-in"
+    }
+  ],
+  "enabled": [
+    "design_canvas",
+    "framer_motion",
+    "seo_layer"
+  ],
+  "marketplace": false,
+  "message": "PEME lite \u2014 built-in extension catalog (marketplace deferred)",
+  "implemented": true,
+  "ts": 1786905938.6023371
+}
