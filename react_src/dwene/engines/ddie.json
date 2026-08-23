@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "engine": "DDIE",
+  "level": "lite",
+  "compile_mode": "vite",
+  "artifacts": [
+    "dist/index.html",
+    "package.json",
+    "vite.config.ts",
+    "dwene/project-dna.json"
+  ],
+  "start_command_hint": "vite preview / static dist serve",
+  "infra": {
+    "node_required": true,
+    "volume_paths": [
+      "/data"
+    ],
+    "env": [
+      "DATABASE_URL",
+      "PORT"
+    ]
+  },
+  "message": "DDIE lite \u2014 compile/deploy artifact inventory",
+  "implemented": true,
+  "ts": 1786905938.6022203
+}
