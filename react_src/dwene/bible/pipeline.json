@@ -1,0 +1,253 @@
+{
+  "engine": "DHOE_bible",
+  "version": 1,
+  "ts": 1786905938.6001537,
+  "ok": false,
+  "engines": {
+    "01_intent": {
+      "engine": "01_intent",
+      "ok": false
+    },
+    "02_creative_direction": {
+      "engine": "02_creative_direction",
+      "ok": false
+    },
+    "03_design_diversity": {
+      "engine": "03_design_diversity",
+      "ok": true,
+      "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
+      "noveltyScore": 0.7807,
+      "archetype": "neo-brutalist",
+      "heroStrategy": "no-hero",
+      "message": "DDDE DesignManifest applied"
+    },
+    "04_supreme_quality": {
+      "engine": "04_supreme_quality",
+      "ok": false,
+      "overall": 83.5,
+      "status": "best_effort",
+      "message": "DSDQE score + polish loop"
+    },
+    "05_section_invention": {
+      "engine": "05_section_invention",
+      "ok": false
+    },
+    "06_react_architecture": {
+      "engine": "06_react_architecture",
+      "ok": true,
+      "checks": {
+        "design_tokens": true,
+        "pages": true,
+        "components": true,
+        "dwene_dna": true,
+        "registry": true
+      },
+      "page_count": 9,
+      "intent_modules": [
+        "auth",
+        "messenger",
+        "profile",
+        "friends"
+      ],
+      "message": "React architecture inventory (tokens, pages, DNA, registry)"
+    },
+    "07_interaction_motion": {
+      "engine": "07_interaction_motion",
+      "ok": true,
+      "blocking": false,
+      "reduced_motion": true,
+      "three": false,
+      "files": [],
+      "message": "MIXE \u2014 framer-motion layer with prefers-reduced-motion"
+    },
+    "08_visual_qa": {
+      "engine": "08_visual_qa",
+      "ok": false,
+      "findings": [
+        {
+          "severity": "high",
+          "area": "hierarchy",
+          "finding": "Home has fewer than 3 sections",
+          "fix": "Invent meaningful sections"
+        },
+        {
+          "severity": "low",
+          "area": "consistency",
+          "finding": "Manifest section order diverged from composed home",
+          "fix": "Recompose from DesignManifest or update fingerprint"
+        },
+        {
+          "severity": "high",
+          "area": "tooling",
+          "finding": "Playwright E2E failed: Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+          "fix": "Install Chromium (`playwright install chromium`) and re-run",
+          "technical": null,
+          "tool": "playwright"
+        }
+      ],
+      "finding_count": 3,
+      "severity_score": 26,
+      "section_kinds": [
+        "chat"
+      ],
+      "browser": {
+        "ran": true,
+        "skipped": false,
+        "ok": false,
+        "tools": [
+          "playwright"
+        ],
+        "screenshots": [],
+        "journeys": [],
+        "report_path": "dwene/bible/playwright-e2e.json",
+        "reason": null
+      },
+      "improvePlan": [
+        {
+          "fix": "Invent meaningful sections",
+          "severity": "high",
+          "area": "hierarchy"
+        },
+        {
+          "fix": "Install Chromium (`playwright install chromium`) and re-run",
+          "severity": "high",
+          "area": "tooling"
+        }
+      ],
+      "gate": {
+        "ok": false,
+        "threshold": 30,
+        "score": 26
+      }
+    },
+    "09_responsive": {
+      "engine": "09_responsive",
+      "ok": true,
+      "blocking": false,
+      "strategy": {
+        "mobile": "Single column; nav \u2192 drawer/hamburger; hero stacks",
+        "tablet": "Split panels begin; denser grids",
+        "desktop": "Full composition from Design DNA",
+        "density": "compact",
+        "playwright_mobile": false
+      },
+      "findings": [],
+      "message": "Responsive strategy + chrome breakpoint + Playwright mobile probe"
+    },
+    "10_performance": {
+      "engine": "10_performance",
+      "ok": true,
+      "blocking": false,
+      "compile_mode": "vite",
+      "findings": [],
+      "budgets": {
+        "prefer_vite": true,
+        "lazy_images": true,
+        "three_only_if_requested": true,
+        "console_clean": true
+      },
+      "message": "Performance lite \u2014 compile mode + lazy image + console probe"
+    },
+    "11_accessibility": {
+      "engine": "11_accessibility",
+      "ok": true,
+      "blocking": false,
+      "findings": [],
+      "checks": {
+        "reduced_motion": true,
+        "main_landmark": true,
+        "theme_tokens": true,
+        "axe_high": 0,
+        "axe_ran": false
+      },
+      "message": "Accessibility gate \u2014 reduced motion, landmarks, axe-core"
+    },
+    "12_security": {
+      "engine": "12_security",
+      "ok": true,
+      "blocking": false,
+      "findings": [],
+      "scanned_files": 76,
+      "message": "Security gate \u2014 secret scan + intent auth/admin coherence"
+    },
+    "13_functional": {
+      "engine": "13_functional",
+      "ok": false,
+      "blocking": true,
+      "journeys": [
+        {
+          "id": "home_render",
+          "ok": true,
+          "detail": "Home page present in page DNA"
+        },
+        {
+          "id": "auth",
+          "ok": true,
+          "detail": "Auth context or login page"
+        },
+        {
+          "id": "contact_form",
+          "ok": true,
+          "detail": "Contact surface available"
+        }
+      ],
+      "failed": [],
+      "completeness_ok": true,
+      "playwright": {
+        "ran": true,
+        "ok": false,
+        "journey_count": 0
+      },
+      "message": "Functional QA \u2014 DNA journey map + Playwright browser journeys"
+    },
+    "14_refinement_memory": {
+      "engine": "14_refinement_memory",
+      "ok": true,
+      "lessons": [
+        {
+          "kind": "visual_qa_fail",
+          "hint": "Strengthen section invention / copy density before publish",
+          "findings": 3
+        }
+      ],
+      "memory_path": "dwene/bible/creative-memory.json",
+      "message": "Creative memory + SIEE refinement events",
+      "react_patch": {
+        "ok": true,
+        "patch_count": 0,
+        "actions": []
+      }
+    }
+  },
+  "publish_blockers": [
+    "13_functional",
+    "08_visual_qa",
+    "playwright_e2e"
+  ],
+  "visual_qa_ok": false,
+  "playwright": {
+    "ran": true,
+    "ok": false,
+    "screenshots": 0,
+    "tools": [
+      "playwright"
+    ],
+    "report_path": "dwene/bible/playwright-e2e.json"
+  },
+  "order": [
+    "01_intent",
+    "02_creative_direction",
+    "03_design_diversity",
+    "04_supreme_quality",
+    "05_section_invention",
+    "06_react_architecture",
+    "07_interaction_motion",
+    "08_visual_qa",
+    "09_responsive",
+    "10_performance",
+    "11_accessibility",
+    "12_security",
+    "13_functional",
+    "14_refinement_memory"
+  ]
+}
