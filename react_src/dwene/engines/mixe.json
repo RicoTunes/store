@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "engine": "MIXE",
+  "level": "lite",
+  "spec": {
+    "library": "framer-motion",
+    "scroll": true,
+    "text": true,
+    "page_transitions": true,
+    "forms": true,
+    "three": false
+  },
+  "motion_module": false,
+  "message": "MIXE lite \u2014 framer-motion / optional three.js experience plan",
+  "implemented": true,
+  "ts": 1786905938.6022005
+}
