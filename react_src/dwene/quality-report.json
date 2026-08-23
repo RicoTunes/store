@@ -1,0 +1,170 @@
+{
+  "artDirection": {
+    "businessFamily": "social",
+    "compositionDirection": "layered",
+    "contrast": "extreme",
+    "density": "compact",
+    "engine": "DSDQE",
+    "imageDirection": "floating",
+    "mood": "bold",
+    "motionDirection": "scale",
+    "personality": "irreverent",
+    "tone": "playful-direct",
+    "typographyDirection": "display-impact",
+    "visualArchetype": "neo-brutalist",
+    "visualRhythm": "punchy",
+    "whitespace": "tight"
+  },
+  "critique": {
+    "findings": [
+      {
+        "finding": "Visual excellence below world-class bar \u2014 composition feels unfinished.",
+        "fix": "boost_hierarchy",
+        "persona": "Art Director",
+        "severity": "high"
+      },
+      {
+        "finding": "Users may not immediately understand primary action or hierarchy.",
+        "fix": "ensure_cta_clarity",
+        "persona": "UX Designer",
+        "severity": "high"
+      },
+      {
+        "finding": "No hero and weak introductory content \u2014 orientation is unclear.",
+        "fix": "boost_hierarchy",
+        "persona": "UX Designer",
+        "severity": "high"
+      },
+      {
+        "finding": "Motion does not support hierarchy or feels noisy.",
+        "fix": "enrich_motion",
+        "persona": "Motion Designer",
+        "severity": "medium"
+      },
+      {
+        "finding": "Accessibility risk \u2014 contrast, motion, or glass overlays.",
+        "fix": "spacing_align",
+        "persona": "Accessibility Specialist",
+        "severity": "high"
+      }
+    ],
+    "improvePlan": [
+      "boost_hierarchy",
+      "ensure_cta_clarity",
+      "spacing_align",
+      "enrich_motion"
+    ]
+  },
+  "engine": "DSDQE",
+  "family": "social",
+  "gate": {
+    "failing": [
+      "visualExcellence",
+      "ux",
+      "accessibility",
+      "originality",
+      "overall"
+    ],
+    "needsStructuralRegen": false,
+    "ok": false,
+    "overall": 83.5,
+    "pass": false,
+    "reasons": [
+      "visualExcellence=83.5 < 85.0",
+      "ux=82.6 < 85.0",
+      "accessibility=82.0 < 85.0",
+      "originality=76.4 < 85.0",
+      "overall=83.5 < 88.0"
+    ],
+    "structuralFailing": [
+      "composition",
+      "informationHierarchy"
+    ],
+    "thresholds": {
+      "accessibility": 85,
+      "interaction": 85,
+      "originality": 85,
+      "overall": 88,
+      "responsive": 85,
+      "ux": 85,
+      "visualExcellence": 85
+    }
+  },
+  "generic": {
+    "flags": [],
+    "noveltyScore": 0.7807,
+    "penalty": 0.0
+  },
+  "history": [
+    {
+      "ok": false,
+      "overall": 83.5,
+      "pass": 0
+    },
+    {
+      "appliedOps": [
+        "boost_hierarchy",
+        "ensure_cta_clarity",
+        "spacing_align",
+        "enrich_motion"
+      ],
+      "ok": false,
+      "overall": 83.5,
+      "pass": 1
+    },
+    {
+      "appliedOps": [
+        "boost_hierarchy",
+        "ensure_cta_clarity",
+        "spacing_align",
+        "enrich_motion"
+      ],
+      "ok": false,
+      "overall": 83.5,
+      "pass": 2
+    }
+  ],
+  "ok": false,
+  "polishPasses": 2,
+  "scores": {
+    "accessibility": 82.0,
+    "brandExpression": 88.0,
+    "color": 88.0,
+    "composition": 66.0,
+    "consistency": 96.0,
+    "contentPresentation": 89.0,
+    "contrast": 84.0,
+    "conversion": 84.0,
+    "emotionalImpact": 82.0,
+    "informationHierarchy": 72.0,
+    "interaction": 86.0,
+    "layout": 83.0,
+    "microInteractions": 78.0,
+    "mobile": 90.0,
+    "motion": 74.0,
+    "originality": 76.4,
+    "overall": 83.5,
+    "performance": 82.0,
+    "responsive": 88.0,
+    "spacing": 88.0,
+    "technical": 94.0,
+    "typography": 96.0,
+    "ux": 82.6,
+    "visualExcellence": 83.5
+  },
+  "status": "best_effort",
+  "structuralRegen": false,
+  "thresholds": {
+    "accessibility": 85,
+    "interaction": 85,
+    "originality": 85,
+    "overall": 88,
+    "responsive": 85,
+    "ux": 85,
+    "visualExcellence": 85
+  },
+  "updated_at": 1786905931.1260324,
+  "verdict": "Needs refinement \u2014 shipped best-effort with quality report",
+  "version": 1,
+  "worldClassBar": "Would this be credible as work from a world-class digital product studio?"
+}
