@@ -1,0 +1,72 @@
+{
+  "engine": "DGIPE",
+  "level": "full",
+  "ts": 1786905938.0612905,
+  "publish_allowed": false,
+  "checks": [
+    {
+      "id": "dna_complete",
+      "ok": true,
+      "detail": "Page DNA passed completeness"
+    },
+    {
+      "id": "compile",
+      "ok": true,
+      "caution": false,
+      "detail": "Compile mode=vite"
+    },
+    {
+      "id": "visual_canvas",
+      "ok": true,
+      "detail": "Visual canvas present"
+    },
+    {
+      "id": "supreme_quality",
+      "ok": true,
+      "caution": true,
+      "detail": "DSDQE overall=83.5 (best_effort)",
+      "overall": 83.5
+    },
+    {
+      "id": "bible_engines",
+      "ok": true,
+      "caution": true,
+      "detail": "No bible/pipeline.json yet \u2014 Engines 01\u201314 report missing"
+    },
+    {
+      "id": "no_stub_modules",
+      "ok": true,
+      "caution": false,
+      "detail": "All modules are production-capable"
+    },
+    {
+      "id": "seo_basics",
+      "ok": true,
+      "detail": "SEO robots/index present",
+      "caution": false
+    }
+  ],
+  "modules": [
+    "auth",
+    "messenger",
+    "profile",
+    "friends"
+  ],
+  "stub_modules": [],
+  "demo_checkout_risk": false,
+  "patch_policy": {
+    "prefer_surgical_edit": true,
+    "prefer_element_edit": true,
+    "design_variants": true,
+    "full_rebuild_on": [
+      "architecture",
+      "intent_flip",
+      "registry_break"
+    ]
+  },
+  "bible_blockers": [
+    "13_functional",
+    "08_visual_qa",
+    "playwright_e2e"
+  ]
+}
