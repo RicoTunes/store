@@ -1,0 +1,14 @@
+{
+  "engine": "10_performance",
+  "ok": true,
+  "blocking": false,
+  "compile_mode": "vite",
+  "findings": [],
+  "budgets": {
+    "prefer_vite": true,
+    "lazy_images": true,
+    "three_only_if_requested": true,
+    "console_clean": true
+  },
+  "message": "Performance lite \u2014 compile mode + lazy image + console probe"
+}
