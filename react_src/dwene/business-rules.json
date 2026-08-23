@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "id": "require_auth_for_account",
+      "when": "route:/login|/register",
+      "then": "use_auth_runtime"
+    },
+    {
+      "id": "protect_member_routes",
+      "when": "intent.auth",
+      "then": "protected_route_wrapper"
+    }
+  ],
+  "ts": 1786905931.1291184
+}
