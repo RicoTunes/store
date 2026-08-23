@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "engine": "RNIE",
+  "level": "lite",
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "sections": 1
+    },
+    {
+      "id": "contact",
+      "path": "/contact",
+      "sections": 3
+    },
+    {
+      "id": "features",
+      "path": "/features",
+      "sections": 3
+    },
+    {
+      "id": "security",
+      "path": "/security",
+      "sections": 3
+    },
+    {
+      "id": "download",
+      "path": "/download",
+      "sections": 3
+    },
+    {
+      "id": "support",
+      "path": "/support",
+      "sections": 3
+    },
+    {
+      "id": "messages",
+      "path": "/messages",
+      "sections": 1
+    },
+    {
+      "id": "profile",
+      "path": "/profile",
+      "sections": 1
+    },
+    {
+      "id": "friends",
+      "path": "/friends",
+      "sections": 1
+    }
+  ],
+  "nav_items": [
+    {
+      "label": "Messages",
+      "to": "/"
+    },
+    {
+      "label": "Support",
+      "to": "/contact"
+    }
+  ],
+  "extra_routes": [
+    "/login",
+    "/signup"
+  ],
+  "message": "RNIE lite \u2014 page DNA routes + navigation map",
+  "implemented": true,
+  "ts": 1786905938.602127
+}
