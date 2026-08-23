@@ -1,0 +1,14 @@
+{
+  "engine": "11_accessibility",
+  "ok": true,
+  "blocking": false,
+  "findings": [],
+  "checks": {
+    "reduced_motion": true,
+    "main_landmark": true,
+    "theme_tokens": true,
+    "axe_high": 0,
+    "axe_ran": false
+  },
+  "message": "Accessibility gate \u2014 reduced motion, landmarks, axe-core"
+}
