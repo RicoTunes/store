@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "engine": "IFWE",
+  "level": "lite",
+  "forms": [
+    "ContactForm",
+    "Auth"
+  ],
+  "workflows": [
+    {
+      "id": "onboarding",
+      "steps": [
+        "signup",
+        "verify-session"
+      ]
+    }
+  ],
+  "validation": "zod",
+  "message": "IFWE lite \u2014 form surfaces + multi-step workflow map from intent",
+  "implemented": true,
+  "ts": 1786905938.60218
+}
