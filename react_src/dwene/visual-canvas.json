@@ -1,0 +1,393 @@
+{
+  "brand": "RicoGram",
+  "edges": [
+    {
+      "from": "contact:contact-hero",
+      "id": "contact:contact-hero->contact:contact-form",
+      "kind": "flow",
+      "to": "contact:contact-form"
+    },
+    {
+      "from": "contact:contact-form",
+      "id": "contact:contact-form->contact:contact-faq",
+      "kind": "flow",
+      "to": "contact:contact-faq"
+    },
+    {
+      "from": "features:features-hero",
+      "id": "features:features-hero->features:features-body",
+      "kind": "flow",
+      "to": "features:features-body"
+    },
+    {
+      "from": "features:features-body",
+      "id": "features:features-body->features:features-cta",
+      "kind": "flow",
+      "to": "features:features-cta"
+    },
+    {
+      "from": "security:security-hero",
+      "id": "security:security-hero->security:security-body",
+      "kind": "flow",
+      "to": "security:security-body"
+    },
+    {
+      "from": "security:security-body",
+      "id": "security:security-body->security:security-cta",
+      "kind": "flow",
+      "to": "security:security-cta"
+    },
+    {
+      "from": "download:download-hero",
+      "id": "download:download-hero->download:download-body",
+      "kind": "flow",
+      "to": "download:download-body"
+    },
+    {
+      "from": "download:download-body",
+      "id": "download:download-body->download:download-cta",
+      "kind": "flow",
+      "to": "download:download-cta"
+    },
+    {
+      "from": "support:support-hero",
+      "id": "support:support-hero->support:support-body",
+      "kind": "flow",
+      "to": "support:support-body"
+    },
+    {
+      "from": "support:support-body",
+      "id": "support:support-body->support:support-cta",
+      "kind": "flow",
+      "to": "support:support-cta"
+    }
+  ],
+  "engine": "VCAE",
+  "nodes": [
+    {
+      "body": "Private conversations for RicoGram. Search people, open a thread, and keep chatting \u2014 original branded messenger experience.",
+      "component": "ChatShell",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 0
+      },
+      "id": "home:chat-shell",
+      "kind": "chat",
+      "order": 0,
+      "page_id": "home",
+      "section_id": "chat-shell",
+      "title": "RicoGram Messages",
+      "type": "section"
+    },
+    {
+      "body": "Reach the RicoGram team \u2014 we respond within one business day and are happy to help with clear next steps for whatever you need.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 140
+      },
+      "id": "contact:contact-hero",
+      "kind": "hero",
+      "order": 0,
+      "page_id": "contact",
+      "section_id": "contact-hero",
+      "title": "Contact us",
+      "type": "section"
+    },
+    {
+      "body": "RicoGram helps people feel informed, supported, and confident.",
+      "component": "ContactForm",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 280
+      },
+      "id": "contact:contact-form",
+      "kind": "contact",
+      "order": 1,
+      "page_id": "contact",
+      "section_id": "contact-form",
+      "title": "Send a message",
+      "type": "section"
+    },
+    {
+      "body": "Hours, location, and what to expect when you contact RicoGram. We keep responses clear so you always know the next step.",
+      "component": "FAQ",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 420
+      },
+      "id": "contact:contact-faq",
+      "kind": "faq",
+      "order": 2,
+      "page_id": "contact",
+      "section_id": "contact-faq",
+      "title": "Before you write",
+      "type": "section"
+    },
+    {
+      "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 560
+      },
+      "id": "features:features-hero",
+      "kind": "hero",
+      "order": 0,
+      "page_id": "features",
+      "section_id": "features-hero",
+      "title": "Features",
+      "type": "section"
+    },
+    {
+      "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Section",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 700
+      },
+      "id": "features:features-body",
+      "kind": "text",
+      "order": 1,
+      "page_id": "features",
+      "section_id": "features-body",
+      "title": "About features",
+      "type": "section"
+    },
+    {
+      "body": "Reach out to RicoGram and we will respond within one business day.",
+      "component": "CTA",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 840
+      },
+      "id": "features:features-cta",
+      "kind": "cta",
+      "order": 2,
+      "page_id": "features",
+      "section_id": "features-cta",
+      "title": "Ready when you are",
+      "type": "section"
+    },
+    {
+      "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 980
+      },
+      "id": "security:security-hero",
+      "kind": "hero",
+      "order": 0,
+      "page_id": "security",
+      "section_id": "security-hero",
+      "title": "Security",
+      "type": "section"
+    },
+    {
+      "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Section",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1120
+      },
+      "id": "security:security-body",
+      "kind": "text",
+      "order": 1,
+      "page_id": "security",
+      "section_id": "security-body",
+      "title": "About security",
+      "type": "section"
+    },
+    {
+      "body": "Reach out to RicoGram and we will respond within one business day.",
+      "component": "CTA",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1260
+      },
+      "id": "security:security-cta",
+      "kind": "cta",
+      "order": 2,
+      "page_id": "security",
+      "section_id": "security-cta",
+      "title": "Ready when you are",
+      "type": "section"
+    },
+    {
+      "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1400
+      },
+      "id": "download:download-hero",
+      "kind": "hero",
+      "order": 0,
+      "page_id": "download",
+      "section_id": "download-hero",
+      "title": "Download",
+      "type": "section"
+    },
+    {
+      "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Section",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1540
+      },
+      "id": "download:download-body",
+      "kind": "text",
+      "order": 1,
+      "page_id": "download",
+      "section_id": "download-body",
+      "title": "About download",
+      "type": "section"
+    },
+    {
+      "body": "Reach out to RicoGram and we will respond within one business day.",
+      "component": "CTA",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1680
+      },
+      "id": "download:download-cta",
+      "kind": "cta",
+      "order": 2,
+      "page_id": "download",
+      "section_id": "download-cta",
+      "title": "Ready when you are",
+      "type": "section"
+    },
+    {
+      "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1820
+      },
+      "id": "support:support-hero",
+      "kind": "hero",
+      "order": 0,
+      "page_id": "support",
+      "section_id": "support-hero",
+      "title": "Support",
+      "type": "section"
+    },
+    {
+      "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
+      "component": "Section",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1960
+      },
+      "id": "support:support-body",
+      "kind": "text",
+      "order": 1,
+      "page_id": "support",
+      "section_id": "support-body",
+      "title": "About support",
+      "type": "section"
+    },
+    {
+      "body": "Reach out to RicoGram and we will respond within one business day.",
+      "component": "CTA",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 2100
+      },
+      "id": "support:support-cta",
+      "kind": "cta",
+      "order": 2,
+      "page_id": "support",
+      "section_id": "support-cta",
+      "title": "Ready when you are",
+      "type": "section"
+    },
+    {
+      "body": "Messages workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
+      "component": "ChatShell",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 2240
+      },
+      "id": "messages:messages-chat",
+      "kind": "chat",
+      "order": 0,
+      "page_id": "messages",
+      "section_id": "messages-chat",
+      "title": "RicoGram Messages",
+      "type": "section"
+    },
+    {
+      "body": "Profile workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
+      "component": "ProfileShell",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 2380
+      },
+      "id": "profile:profile-profile",
+      "kind": "profile",
+      "order": 0,
+      "page_id": "profile",
+      "section_id": "profile-profile",
+      "title": "RicoGram Profile",
+      "type": "section"
+    },
+    {
+      "body": "Friends workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
+      "component": "FriendsShell",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 2520
+      },
+      "id": "friends:friends-friends",
+      "kind": "friends",
+      "order": 0,
+      "page_id": "friends",
+      "section_id": "friends-friends",
+      "title": "RicoGram Friends",
+      "type": "section"
+    }
+  ],
+  "selection": null,
+  "version": 1
+}
