@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "engine": "ENAE",
+  "level": "lite",
+  "automations": [
+    {
+      "on": "message.created",
+      "do": "fanout_feed",
+      "channel": "site_db"
+    },
+    {
+      "on": "contact.submit",
+      "do": "store_lead",
+      "channel": "site_db"
+    }
+  ],
+  "channels": [
+    "site_db"
+  ],
+  "realtime": false,
+  "message": "ENAE lite \u2014 event\u2192persist automations (no external email/SMS yet)",
+  "implemented": true,
+  "ts": 1786905938.6021836
+}
