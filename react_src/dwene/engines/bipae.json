@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "engine": "BIPAE",
+  "level": "lite",
+  "metrics": [
+    "page_views",
+    "cta_clicks",
+    "signups",
+    "logins",
+    "messages"
+  ],
+  "dashboards": [
+    "overview"
+  ],
+  "storage": "site_db.agent_runs / orders aggregates",
+  "message": "BIPAE lite \u2014 product metric catalog from intent (no external BI yet)",
+  "implemented": true,
+  "ts": 1786905938.6023302
+}
