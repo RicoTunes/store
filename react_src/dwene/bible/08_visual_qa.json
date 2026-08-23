@@ -1,0 +1,60 @@
+{
+  "engine": "08_visual_qa",
+  "ok": false,
+  "findings": [
+    {
+      "severity": "high",
+      "area": "hierarchy",
+      "finding": "Home has fewer than 3 sections",
+      "fix": "Invent meaningful sections"
+    },
+    {
+      "severity": "low",
+      "area": "consistency",
+      "finding": "Manifest section order diverged from composed home",
+      "fix": "Recompose from DesignManifest or update fingerprint"
+    },
+    {
+      "severity": "high",
+      "area": "tooling",
+      "finding": "Playwright E2E failed: Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
+      "fix": "Install Chromium (`playwright install chromium`) and re-run",
+      "technical": null,
+      "tool": "playwright"
+    }
+  ],
+  "finding_count": 3,
+  "severity_score": 26,
+  "section_kinds": [
+    "chat"
+  ],
+  "browser": {
+    "ran": true,
+    "skipped": false,
+    "ok": false,
+    "tools": [
+      "playwright"
+    ],
+    "screenshots": [],
+    "journeys": [],
+    "report_path": "dwene/bible/playwright-e2e.json",
+    "reason": null
+  },
+  "improvePlan": [
+    {
+      "fix": "Invent meaningful sections",
+      "severity": "high",
+      "area": "hierarchy"
+    },
+    {
+      "fix": "Install Chromium (`playwright install chromium`) and re-run",
+      "severity": "high",
+      "area": "tooling"
+    }
+  ],
+  "gate": {
+    "ok": false,
+    "threshold": 30,
+    "score": 26
+  }
+}
