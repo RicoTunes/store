@@ -1,0 +1,110 @@
+{
+  "engine": "DHOE",
+  "level": "lite",
+  "ts": 1786905938.6025012,
+  "count": 17,
+  "engines": {
+    "SMIE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/smie.json",
+      "message": "SMIE lite \u2014 React context inventory from DNA + src/contexts"
+    },
+    "DLSIE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/dlsie.json",
+      "message": "DLSIE lite \u2014 sqlite module DB plan for site-scoped CRUD"
+    },
+    "RNIE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/rnie.json",
+      "message": "RNIE lite \u2014 page DNA routes + navigation map"
+    },
+    "AIIE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/aiie.json",
+      "message": "AIIE lite \u2014 AuthContext + login/signup routes when intent.auth"
+    },
+    "IFWE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/ifwe.json",
+      "message": "IFWE lite \u2014 form surfaces + multi-step workflow map from intent"
+    },
+    "ENAE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/enae.json",
+      "message": "ENAE lite \u2014 event\u2192persist automations (no external email/SMS yet)"
+    },
+    "MIXE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/mixe.json",
+      "message": "MIXE lite \u2014 framer-motion / optional three.js experience plan"
+    },
+    "POSHE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/poshe.json",
+      "message": "POSHE lite \u2014 completeness + fixer loop as self-heal signal"
+    },
+    "DDIE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/ddie.json",
+      "message": "DDIE lite \u2014 compile/deploy artifact inventory"
+    },
+    "DHOE": {
+      "ok": true,
+      "level": "full",
+      "path": "dwene/engines/dhoe.json",
+      "message": "DHOE \u2014 HQ view of agent council + Bible Engines 01\u201314"
+    },
+    "BIPAE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/bipae.json",
+      "message": "BIPAE lite \u2014 product metric catalog from intent (no external BI yet)"
+    },
+    "PEME": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/peme.json",
+      "message": "PEME lite \u2014 built-in extension catalog (marketplace deferred)"
+    },
+    "BMIE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/bmie.json",
+      "message": "BMIE lite \u2014 from-scratch `chat` + 4 backend modules"
+    },
+    "SSAE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/ssae.json",
+      "message": "SSAE lite \u2014 solution architecture snapshot from DNA"
+    },
+    "ARDE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/arde.json",
+      "message": "ARDE lite \u2014 recorded architecture tradeoff decisions"
+    },
+    "ERQAE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/erqae.json",
+      "message": "ERQAE lite \u2014 completeness + supreme quality gate review"
+    },
+    "ASEE": {
+      "ok": true,
+      "level": "lite",
+      "path": "dwene/engines/asee.json",
+      "message": "ASEE lite \u2014 orchestrator executes full React workspace build council"
+    }
+  }
+}
