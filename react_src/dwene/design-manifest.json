@@ -1,0 +1,149 @@
+{
+  "artDirection": {
+    "businessFamily": "social",
+    "compositionDirection": "layered",
+    "contrast": "extreme",
+    "density": "compact",
+    "engine": "DSDQE",
+    "imageDirection": "floating",
+    "mood": "bold",
+    "motionDirection": "scale",
+    "personality": "irreverent",
+    "tone": "playful-direct",
+    "typographyDirection": "display-impact",
+    "visualArchetype": "neo-brutalist",
+    "visualRhythm": "punchy",
+    "whitespace": "tight"
+  },
+  "backgroundStrategy": "solid",
+  "baseHue": 178,
+  "businessFamily": "social",
+  "cardStrategy": "cards",
+  "chrome": "brutalist",
+  "contentDensity": "compact",
+  "designSeed": "ac3d30ce13a5a600",
+  "engine": "DDDE",
+  "engineRounds": [
+    {
+      "archetype": "neo-brutalist",
+      "candidates": 5,
+      "chosen": "cand_3",
+      "novelty": 0.7807,
+      "reject": false,
+      "rejected": 0,
+      "round": 0,
+      "score": 0.7149,
+      "seed": "dd57a7d1dc66c1ea"
+    }
+  ],
+  "fingerprint": {
+    "archetype": "neo-brutalist",
+    "background": "solid",
+    "card_strategy": "cards",
+    "chrome": "brutalist",
+    "density": "compact",
+    "grid": "editorial",
+    "hero": "no-hero",
+    "hero_composition": "text-floating-beside",
+    "image_transition": "scale",
+    "indicator_position": "beside-cta",
+    "indicator_style": "dots",
+    "layout": "layered",
+    "motion": "scale",
+    "nav": "floating",
+    "section_order": [
+      "feed",
+      "team",
+      "cta"
+    ],
+    "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
+    "slider_architecture": "none",
+    "typography_id": "space-dm"
+  },
+  "gridSystem": "editorial",
+  "headerMode": "blur",
+  "heroExperience": {
+    "architecture": "none",
+    "arrowPlacement": "bottom-with-indicators",
+    "autoplay": false,
+    "autoplayMs": 0,
+    "composition": "text-floating-beside",
+    "gesture": "none",
+    "imageStrategy": "floating",
+    "imageTransition": "scale",
+    "indicatorPosition": "beside-cta",
+    "indicatorStyle": "dots",
+    "keyboard": true,
+    "mobileArchitecture": "stack",
+    "pauseOnHidden": true,
+    "pauseOnHover": true,
+    "preloadAdjacent": true,
+    "reasoning": "text-floating-beside composition + none architecture; scale/left-to-right image motion; dots@beside-cta; text=fixed-with-image; arrows=bottom-with-indicators; autoplay=False for social/no-hero/scale.",
+    "textTransition": "fixed-with-image",
+    "transitionDirection": "left-to-right",
+    "wantsSlider": false
+  },
+  "heroStrategy": "no-hero",
+  "imageStrategy": "floating",
+  "layoutPhilosophy": "layered",
+  "motionLanguage": "scale",
+  "navigationPattern": "floating",
+  "noveltyScore": 0.7807,
+  "radius": "0",
+  "reasoning": {
+    "whyCards": "cards presentation \u2014 cards only when they aid scanning.",
+    "whyHero": "no-hero hero strategy selected from archetype principles + seed.",
+    "whyHeroExperience": "text-floating-beside composition + none architecture; scale/left-to-right image motion; dots@beside-cta; text=fixed-with-image; arrows=bottom-with-indicators; autoplay=False for social/no-hero/scale.",
+    "whyLayout": "layered supports the content density (compact) and grid (editorial).",
+    "whyMotion": "scale serves the experience without decorative noise.",
+    "whyNav": "floating navigation matches the archetype and journey.",
+    "whySectionOrder": "Section sequence chosen for social: feed \u2192 team \u2192 cta.",
+    "whyStyle": "neo-brutalist fits social business context while remaining compositionally open.",
+    "whyTypography": "playfair-source pairs display/body for the chosen personality."
+  },
+  "responsiveStrategy": {
+    "desktop": "layered",
+    "heroComposition": "text-floating-beside",
+    "heroMobile": "stack",
+    "imageTransform": "contain",
+    "mobile": "stack",
+    "navTransform": "bottom",
+    "tablet": "adapt",
+    "typeScale": "fluid"
+  },
+  "scores": {
+    "accessibility": 0.85,
+    "brandFit": 0.55,
+    "businessFit": 0.55,
+    "contentFit": 0.65,
+    "conversionPotential": 0.6,
+    "engineeringSimplicity": 1.0,
+    "novelty": 0.781,
+    "total": 0.7149,
+    "uxQuality": 0.8
+  },
+  "sectionStrategy": {
+    "order": [
+      "feed",
+      "team",
+      "cta"
+    ],
+    "patterns": [
+      "feed",
+      "team",
+      "cta"
+    ]
+  },
+  "selectedCandidate": "cand_3",
+  "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
+  "spacingSystem": "compact",
+  "surfaceWash": "solid",
+  "typographySystem": {
+    "body": "\"DM Sans\", \"Segoe UI\", sans-serif",
+    "display": "\"Space Grotesk\", \"Segoe UI\", sans-serif",
+    "font_id": "space-dm",
+    "google": "Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;600"
+  },
+  "version": 1,
+  "visualArchetype": "neo-brutalist"
+}
