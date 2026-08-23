@@ -1,0 +1,30 @@
+{
+  "engine": "13_functional",
+  "ok": false,
+  "blocking": true,
+  "journeys": [
+    {
+      "id": "home_render",
+      "ok": true,
+      "detail": "Home page present in page DNA"
+    },
+    {
+      "id": "auth",
+      "ok": true,
+      "detail": "Auth context or login page"
+    },
+    {
+      "id": "contact_form",
+      "ok": true,
+      "detail": "Contact surface available"
+    }
+  ],
+  "failed": [],
+  "completeness_ok": true,
+  "playwright": {
+    "ran": true,
+    "ok": false,
+    "journey_count": 0
+  },
+  "message": "Functional QA \u2014 DNA journey map + Playwright browser journeys"
+}
