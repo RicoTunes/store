@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "engine": "ARDE",
+  "level": "lite",
+  "decisions": [
+    {
+      "decision": "design_identity",
+      "choice": "neo-brutalist",
+      "rationale": "Per-site design identity for structural uniqueness"
+    },
+    {
+      "decision": "card_strategy",
+      "choice": "cards",
+      "rationale": "Presentation mode from diversity / visual DNA"
+    },
+    {
+      "decision": "persistence",
+      "choice": "sqlite",
+      "rationale": "DATABASE_URL present \u2192 Postgres; else SQLite module DB"
+    },
+    {
+      "decision": "design_diversity",
+      "choice": "ddde",
+      "rationale": "Design Diversity Engine selected a novel layout recipe"
+    }
+  ],
+  "diversity_active": true,
+  "message": "ARDE lite \u2014 recorded architecture tradeoff decisions",
+  "implemented": true,
+  "ts": 1786905938.602364
+}
