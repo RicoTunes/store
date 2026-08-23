@@ -1,0 +1,14 @@
+{
+  "engine": "09_responsive",
+  "ok": true,
+  "blocking": false,
+  "strategy": {
+    "mobile": "Single column; nav \u2192 drawer/hamburger; hero stacks",
+    "tablet": "Split panels begin; denser grids",
+    "desktop": "Full composition from Design DNA",
+    "density": "compact",
+    "playwright_mobile": false
+  },
+  "findings": [],
+  "message": "Responsive strategy + chrome breakpoint + Playwright mobile probe"
+}
