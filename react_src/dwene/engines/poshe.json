@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "engine": "POSHE",
+  "level": "lite",
+  "healthy": true,
+  "completeness_score": 100,
+  "compile_mode": "vite",
+  "open_issues": [],
+  "healed": [],
+  "message": "POSHE lite \u2014 completeness + fixer loop as self-heal signal",
+  "implemented": true,
+  "ts": 1786905938.6022036
+}
