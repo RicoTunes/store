@@ -1,0 +1,153 @@
+{
+  "variants": [
+    {
+      "id": "product",
+      "label": "Product tech",
+      "theme": {
+        "primary": "#335eec",
+        "secondary": "#06abdb",
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#0f172a",
+        "muted": "#67748f"
+      },
+      "fonts": {
+        "display": "Sora, \"Segoe UI\", sans-serif",
+        "body": "\"Plus Jakarta Sans\", \"Segoe UI\", sans-serif"
+      },
+      "radius": "0.75rem",
+      "visual": {
+        "hero": "split-card",
+        "nav": "top"
+      },
+      "score": 7,
+      "seed": "1d8ed4dca3",
+      "jitter": {
+        "hue": 5,
+        "light": 0.03
+      }
+    },
+    {
+      "id": "night",
+      "label": "Night operations",
+      "theme": {
+        "primary": "#24f7eb",
+        "secondary": "#818ffa",
+        "background": "#0b1220",
+        "surface": "#111827",
+        "text": "#e2e8f0",
+        "muted": "#8eacb4"
+      },
+      "fonts": {
+        "display": "\"Space Grotesk\", \"Segoe UI\", sans-serif",
+        "body": "Inter, \"Segoe UI\", sans-serif"
+      },
+      "radius": "0.5rem",
+      "visual": {
+        "hero": "minimal-glow",
+        "nav": "sidebar",
+        "mode": "dark"
+      },
+      "score": 7,
+      "seed": "9590a685af",
+      "jitter": {
+        "hue": -22,
+        "light": -0.04
+      }
+    },
+    {
+      "id": "hospitality",
+      "label": "Hospitality warm",
+      "theme": {
+        "primary": "#8c6110",
+        "secondary": "#ad9109",
+        "background": "#fff7ed",
+        "surface": "#ffffff",
+        "text": "#431407",
+        "muted": "#936611"
+      },
+      "fonts": {
+        "display": "\"Playfair Display\", Georgia, serif",
+        "body": "\"Source Sans 3\", \"Segoe UI\", sans-serif"
+      },
+      "radius": "0.5rem",
+      "visual": {
+        "hero": "media-stack",
+        "nav": "top"
+      },
+      "score": 1,
+      "seed": "300ae2b21f",
+      "jitter": {
+        "hue": 24,
+        "light": -0.03
+      }
+    },
+    {
+      "id": "retail",
+      "label": "Retail pop",
+      "theme": {
+        "primary": "#c31217",
+        "secondary": "#f5d10d",
+        "background": "#fff1f2",
+        "surface": "#ffffff",
+        "text": "#881337",
+        "muted": "#fb7d73"
+      },
+      "fonts": {
+        "display": "Outfit, \"Segoe UI\", sans-serif",
+        "body": "Figtree, \"Segoe UI\", sans-serif"
+      },
+      "radius": "0.75rem",
+      "visual": {
+        "hero": "cinematic-slider",
+        "nav": "dropdown"
+      },
+      "score": 1,
+      "seed": "565fd638c7",
+      "jitter": {
+        "hue": 13,
+        "light": 0.01
+      }
+    },
+    {
+      "id": "bold",
+      "label": "Bold contrast",
+      "theme": {
+        "primary": "#d7400b",
+        "secondary": "#0896a8",
+        "background": "#fff7ed",
+        "surface": "#ffffff",
+        "text": "#7c2d12",
+        "muted": "#912611"
+      },
+      "fonts": {
+        "display": "Syne, \"Segoe UI\", sans-serif",
+        "body": "\"DM Sans\", \"Segoe UI\", sans-serif"
+      },
+      "radius": "1rem",
+      "visual": {
+        "hero": "cinematic-slider",
+        "nav": "dropdown"
+      },
+      "score": 1,
+      "seed": "a6751089cf",
+      "jitter": {
+        "hue": -5,
+        "light": -0.04
+      }
+    }
+  ],
+  "selected": "night",
+  "auto_applied": true,
+  "ddde": {
+    "archetype": "neo-brutalist",
+    "heroStrategy": "no-hero",
+    "navPattern": "floating",
+    "noveltyScore": 0.7807,
+    "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
+    "designSeed": "ac3d30ce13a5a600",
+    "cardStrategy": "cards",
+    "artMood": "bold",
+    "sectionInvention": null
+  }
+}
