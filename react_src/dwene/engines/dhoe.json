@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "engine": "DHOE",
+  "level": "full",
+  "phases": [
+    {
+      "id": "inspire",
+      "status": "done"
+    },
+    {
+      "id": "architect_plan",
+      "status": "done"
+    },
+    {
+      "id": "architect",
+      "status": "done"
+    },
+    {
+      "id": "bible_pre",
+      "status": "skipped"
+    },
+    {
+      "id": "design",
+      "status": "done"
+    },
+    {
+      "id": "content",
+      "status": "done"
+    },
+    {
+      "id": "component",
+      "status": "done"
+    },
+    {
+      "id": "runtime",
+      "status": "done"
+    },
+    {
+      "id": "fixer",
+      "status": "done"
+    },
+    {
+      "id": "composer",
+      "status": "done"
+    },
+    {
+      "id": "similarity",
+      "status": "pass"
+    },
+    {
+      "id": "supreme_quality",
+      "status": "best_effort"
+    },
+    {
+      "id": "visual_builder",
+      "status": "done"
+    },
+    {
+      "id": "admin_os",
+      "status": "skipped"
+    },
+    {
+      "id": "build",
+      "status": "done"
+    },
+    {
+      "id": "review",
+      "status": "done"
+    },
+    {
+      "id": "deploy_governance",
+      "status": "done"
+    },
+    {
+      "id": "bible_06_react_architecture",
+      "status": "pass"
+    },
+    {
+      "id": "bible_07_interaction_motion",
+      "status": "pass"
+    },
+    {
+      "id": "bible_08_visual_qa",
+      "status": "fail"
+    },
+    {
+      "id": "bible_09_responsive",
+      "status": "pass"
+    },
+    {
+      "id": "bible_10_performance",
+      "status": "pass"
+    },
+    {
+      "id": "bible_11_accessibility",
+      "status": "pass"
+    },
+    {
+      "id": "bible_12_security",
+      "status": "pass"
+    },
+    {
+      "id": "bible_13_functional",
+      "status": "fail"
+    },
+    {
+      "id": "bible_14_refinement_memory",
+      "status": "pass"
+    },
+    {
+      "id": "bible_hq",
+      "status": "done"
+    },
+    {
+      "id": "siee",
+      "status": "done"
+    }
+  ],
+  "bible_engines": [
+    "01_intent",
+    "02_creative_direction",
+    "03_design_diversity",
+    "04_supreme_quality",
+    "05_section_invention",
+    "06_react_architecture",
+    "07_interaction_motion",
+    "08_visual_qa",
+    "09_responsive",
+    "10_performance",
+    "11_accessibility",
+    "12_security",
+    "13_functional",
+    "14_refinement_memory"
+  ],
+  "bible_ok": false,
+  "message": "DHOE \u2014 HQ view of agent council + Bible Engines 01\u201314",
+  "implemented": true,
+  "ts": 1786905938.6023252
+}
