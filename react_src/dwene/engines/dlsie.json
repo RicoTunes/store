@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "engine": "DLSIE",
+  "level": "lite",
+  "backend": "sqlite",
+  "modules": [
+    "messages"
+  ],
+  "site_token_bound": true,
+  "api_base": "",
+  "message": "DLSIE lite \u2014 sqlite module DB plan for site-scoped CRUD",
+  "implemented": true,
+  "ts": 1786905938.6021147
+}
