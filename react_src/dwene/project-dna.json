@@ -1,0 +1,361 @@
+{
+  "animation": {
+    "duration": "normal",
+    "style": "scale"
+  },
+  "architecture": {
+    "from_scratch": true,
+    "pages": [
+      "home",
+      "services",
+      "about",
+      "contact",
+      "features",
+      "security",
+      "download",
+      "support"
+    ],
+    "source": "llm",
+    "tagline": "Chat that feels like a group hug, minus the spam.",
+    "vertical": "chat"
+  },
+  "art_direction": {
+    "businessFamily": "social",
+    "compositionDirection": "layered",
+    "contrast": "extreme",
+    "density": "compact",
+    "engine": "DSDQE",
+    "imageDirection": "floating",
+    "mood": "bold",
+    "motionDirection": "scale",
+    "personality": "irreverent",
+    "tone": "playful-direct",
+    "typographyDirection": "display-impact",
+    "visualArchetype": "neo-brutalist",
+    "visualRhythm": "punchy",
+    "whitespace": "tight"
+  },
+  "bible": {
+    "gates_ok": false,
+    "personality": null,
+    "section_order": null,
+    "understanding_brand": null
+  },
+  "brand": {
+    "name": "RicoGram",
+    "personality": "playful"
+  },
+  "business_rules": [
+    {
+      "id": "require_auth_for_account",
+      "then": "use_auth_runtime",
+      "when": "route:/login|/register"
+    },
+    {
+      "id": "protect_member_routes",
+      "then": "protected_route_wrapper",
+      "when": "intent.auth"
+    }
+  ],
+  "business_template": {
+    "app_kind": "app",
+    "category": "chat",
+    "compliance": [],
+    "from_scratch": true,
+    "id": "",
+    "label": "From scratch",
+    "modules": [
+      "auth",
+      "messenger",
+      "profile",
+      "friends"
+    ]
+  },
+  "description": "RicoGram is a secure messenger for private chats and lively group spaces. Share crystal-clear media, run rooms with real controls, and keep your messages where they belong \u2014 in your hands.",
+  "design_identity": {
+    "archetype": "neo-brutalist",
+    "art_density_hint": "compact",
+    "art_direction": {
+      "businessFamily": "social",
+      "compositionDirection": "layered",
+      "contrast": "extreme",
+      "density": "compact",
+      "engine": "DSDQE",
+      "imageDirection": "floating",
+      "mood": "bold",
+      "motionDirection": "scale",
+      "personality": "irreverent",
+      "tone": "playful-direct",
+      "typographyDirection": "display-impact",
+      "visualArchetype": "neo-brutalist",
+      "visualRhythm": "punchy",
+      "whitespace": "tight"
+    },
+    "art_motion_hint": "scale",
+    "background_strategy": "solid",
+    "base_hue": 178,
+    "card_strategy": "cards",
+    "chrome": "brutalist",
+    "container": "narrow",
+    "density": "compact",
+    "font_id": "space-dm",
+    "fonts": {
+      "body": "\"DM Sans\", \"Segoe UI\", sans-serif",
+      "display": "\"Space Grotesk\", \"Segoe UI\", sans-serif",
+      "google": "Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;600"
+    },
+    "from_ddde": true,
+    "grid_system": "editorial",
+    "header": "blur",
+    "image_strategy": "floating",
+    "kickers": {
+      "cta": "Next step",
+      "features": "Capabilities",
+      "hero": "Featured",
+      "story": "Overview",
+      "testimonials": "Stories"
+    },
+    "layout_philosophy": "layered",
+    "motion_language": "scale",
+    "radius": "0.5rem",
+    "section_recipe": [
+      "feed",
+      "team",
+      "cta"
+    ],
+    "seed": "ac3d30ce13a5a6",
+    "spacing_system": "compact",
+    "surface_wash": "solid"
+  },
+  "design_manifest": {
+    "designSeed": "ac3d30ce13a5a600",
+    "noveltyScore": 0.7807,
+    "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
+    "visualArchetype": "neo-brutalist"
+  },
+  "design_prefs": {
+    "visual_qa_plan": [
+      {
+        "area": "hierarchy",
+        "fix": "Invent meaningful sections",
+        "severity": "high"
+      },
+      {
+        "area": "tooling",
+        "fix": "Install Chromium (`playwright install chromium`) and re-run",
+        "severity": "high"
+      }
+    ]
+  },
+  "design_variant": {
+    "auto_applied": true,
+    "id": "night",
+    "jitter": {
+      "hue": -22,
+      "light": -0.04
+    },
+    "label": "Night operations",
+    "palette_locked": true,
+    "seed": "9590a685af"
+  },
+  "intent": {
+    "admin": false,
+    "agent": false,
+    "ai_messenger": false,
+    "app_kind": "chat",
+    "auth": true,
+    "auth_form_chrome": "rounded",
+    "auth_form_pattern": "inset-stage",
+    "auth_form_visual": "rings",
+    "blog": false,
+    "booking": false,
+    "business_template": "",
+    "cart": false,
+    "chat": true,
+    "compliance": [],
+    "crypto": false,
+    "dashboard": false,
+    "design_family": "social",
+    "experience_class": "MESSENGER_APP",
+    "friends": true,
+    "from_scratch": true,
+    "marketing_only": false,
+    "menu": false,
+    "messenger_archetype": "consumer",
+    "messenger_design": {
+      "archetype": "consumer",
+      "bubbles": "neutral-rounded",
+      "chat_bg": "wash",
+      "composer": "compact-underline",
+      "density": "compact",
+      "family": "messenger",
+      "filters": "pills",
+      "header": "toolbar-dense",
+      "list_style": "airy-rows",
+      "motion": "subtle",
+      "nav_rail": "brand-tint",
+      "shell": "list-chat",
+      "skin": "classic-dm",
+      "spaceSize": 19200000,
+      "surface": "elevated",
+      "version": 1
+    },
+    "messenger_skin": "classic-dm",
+    "modules": [
+      "auth",
+      "messenger",
+      "profile",
+      "friends"
+    ],
+    "multipage": true,
+    "no_hero": true,
+    "orders": false,
+    "portal": false,
+    "product_category": "12 \u2014 Messaging & Chat",
+    "product_design": {
+      "archetype": "consumer",
+      "bubbles": "neutral-rounded",
+      "chat_bg": "wash",
+      "composer": "compact-underline",
+      "density": "compact",
+      "family": "messenger",
+      "filters": "pills",
+      "header": "toolbar-dense",
+      "list_style": "airy-rows",
+      "motion": "subtle",
+      "nav_rail": "brand-tint",
+      "shell": "list-chat",
+      "skin": "classic-dm",
+      "source": "messenger_design",
+      "spaceSize": 19200000,
+      "surface": "elevated",
+      "version": 1
+    },
+    "product_design_family": "messenger",
+    "product_design_skin": "",
+    "product_family": "messenger",
+    "profile": true,
+    "saas": false,
+    "social": false,
+    "vertical": "chat",
+    "wallet_mode": ""
+  },
+  "layout": {
+    "container": "narrow",
+    "density": "compact",
+    "footer": false,
+    "grid": "editorial",
+    "header": "blur",
+    "kind": "chat-spa",
+    "nav": "floating",
+    "philosophy": "layered",
+    "shell": null
+  },
+  "motion": {
+    "forms": true,
+    "language": "scale",
+    "library": "framer-motion",
+    "page_transitions": true,
+    "scroll": true,
+    "text": true,
+    "three": false
+  },
+  "navigation": {
+    "items": [
+      {
+        "label": "Messages",
+        "to": "/"
+      },
+      {
+        "label": "Support",
+        "to": "/contact"
+      }
+    ]
+  },
+  "responsive_strategy": {
+    "desktop": "layered",
+    "heroComposition": "text-floating-beside",
+    "heroMobile": "stack",
+    "imageTransform": "contain",
+    "mobile": "stack",
+    "navTransform": "bottom",
+    "tablet": "adapt",
+    "typeScale": "fluid"
+  },
+  "stack": {
+    "bundler": "vite",
+    "framework": "react",
+    "language": "typescript",
+    "routing": "react-router",
+    "styling": "tailwind"
+  },
+  "tagline": "Chat that feels like a group hug, minus the spam.",
+  "theme": {
+    "background": "#0a0a0a",
+    "family": "night",
+    "font": "\"DM Sans\", \"Segoe UI\", sans-serif",
+    "font_id": "space-dm",
+    "from_blueprint": true,
+    "from_crawl": false,
+    "from_prefs": true,
+    "locked": true,
+    "mode": "dark",
+    "muted": "#a3a3a3",
+    "palette_id": "charcoal_ember",
+    "primary": "#ea580c",
+    "radius": "0.5rem",
+    "secondary": "#f97316",
+    "surface": "#171717",
+    "text": "#fafafa"
+  },
+  "title": "RicoGram",
+  "type": "chat",
+  "typography": {
+    "body": "\"DM Sans\", \"Segoe UI\", sans-serif",
+    "display": "\"Space Grotesk\", \"Segoe UI\", sans-serif",
+    "font_id": "space-dm"
+  },
+  "version": 1,
+  "visual": {
+    "arrowPlacement": "bottom-with-indicators",
+    "card_strategy": "cards",
+    "from_ddde": true,
+    "gallery": true,
+    "hero": "no-hero",
+    "heroAutoplayMs": 0,
+    "heroComposition": "text-floating-beside",
+    "heroExperience": {
+      "architecture": "none",
+      "arrowPlacement": "bottom-with-indicators",
+      "autoplay": false,
+      "autoplayMs": 0,
+      "composition": "text-floating-beside",
+      "gesture": "none",
+      "imageStrategy": "floating",
+      "imageTransition": "scale",
+      "indicatorPosition": "beside-cta",
+      "indicatorStyle": "dots",
+      "keyboard": true,
+      "mobileArchitecture": "stack",
+      "pauseOnHidden": true,
+      "pauseOnHover": true,
+      "preloadAdjacent": true,
+      "reasoning": "text-floating-beside composition + none architecture; scale/left-to-right image motion; dots@beside-cta; text=fixed-with-image; arrows=bottom-with-indicators; autoplay=False for social/no-hero/scale.",
+      "textTransition": "fixed-with-image",
+      "transitionDirection": "left-to-right",
+      "wantsSlider": false
+    },
+    "imageTransition": "scale",
+    "image_strategy": "floating",
+    "indicatorPosition": "beside-cta",
+    "indicatorStyle": "dots",
+    "nav": "floating",
+    "seed": "RicoGram-chat",
+    "sliderArchitecture": "none",
+    "textTransition": "fixed-with-image",
+    "topic": "tech",
+    "transitionDirection": "left-to-right",
+    "variant_suggested_hero": "minimal-glow",
+    "variant_suggested_nav": "sidebar"
+  }
+}
