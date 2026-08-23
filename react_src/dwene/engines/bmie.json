@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "engine": "BMIE",
+  "level": "lite",
+  "template_id": "",
+  "vertical": "chat",
+  "from_scratch": true,
+  "modules": [
+    "auth",
+    "messenger",
+    "profile",
+    "friends"
+  ],
+  "library_size": 0,
+  "templates": [],
+  "message": "BMIE lite \u2014 from-scratch `chat` + 4 backend modules",
+  "implemented": true,
+  "ts": 1786905938.602342
+}
