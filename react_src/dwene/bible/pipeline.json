@@ -1,7 +1,7 @@
 {
   "engine": "DHOE_bible",
   "version": 1,
-  "ts": 1786905938.6001537,
+  "ts": 1786488311.8616638,
   "ok": false,
   "engines": {
     "01_intent": {
@@ -15,16 +15,16 @@
     "03_design_diversity": {
       "engine": "03_design_diversity",
       "ok": true,
-      "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
-      "noveltyScore": 0.7807,
-      "archetype": "neo-brutalist",
-      "heroStrategy": "no-hero",
+      "signature": "media-stack|floating|hero-catalog-process-gallery-testimonials-cta|12-column|pill|tiles|space-dm|airy|stagger|modular",
+      "noveltyScore": 1.0,
+      "archetype": "playful",
+      "heroStrategy": "media-stack",
       "message": "DDDE DesignManifest applied"
     },
     "04_supreme_quality": {
       "engine": "04_supreme_quality",
       "ok": false,
-      "overall": 83.5,
+      "overall": 87.2,
       "status": "best_effort",
       "message": "DSDQE score + polish loop"
     },
@@ -42,12 +42,12 @@
         "dwene_dna": true,
         "registry": true
       },
-      "page_count": 9,
+      "page_count": 7,
       "intent_modules": [
         "auth",
-        "messenger",
-        "profile",
-        "friends"
+        "catalog",
+        "cart",
+        "payments"
       ],
       "message": "React architecture inventory (tokens, pages, DNA, registry)"
     },
@@ -66,18 +66,6 @@
       "findings": [
         {
           "severity": "high",
-          "area": "hierarchy",
-          "finding": "Home has fewer than 3 sections",
-          "fix": "Invent meaningful sections"
-        },
-        {
-          "severity": "low",
-          "area": "consistency",
-          "finding": "Manifest section order diverged from composed home",
-          "fix": "Recompose from DesignManifest or update fingerprint"
-        },
-        {
-          "severity": "high",
           "area": "tooling",
           "finding": "Playwright E2E failed: Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright install                                     \u2551\n\u2551                                                            \u2551\n\u2551 <3 Playwright Team                                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d",
           "fix": "Install Chromium (`playwright install chromium`) and re-run",
@@ -85,10 +73,15 @@
           "tool": "playwright"
         }
       ],
-      "finding_count": 3,
-      "severity_score": 26,
+      "finding_count": 1,
+      "severity_score": 12,
       "section_kinds": [
-        "chat"
+        "hero",
+        "catalog",
+        "process",
+        "gallery",
+        "testimonials",
+        "cta"
       ],
       "browser": {
         "ran": true,
@@ -104,11 +97,6 @@
       },
       "improvePlan": [
         {
-          "fix": "Invent meaningful sections",
-          "severity": "high",
-          "area": "hierarchy"
-        },
-        {
           "fix": "Install Chromium (`playwright install chromium`) and re-run",
           "severity": "high",
           "area": "tooling"
@@ -117,7 +105,7 @@
       "gate": {
         "ok": false,
         "threshold": 30,
-        "score": 26
+        "score": 12
       }
     },
     "09_responsive": {
@@ -128,7 +116,7 @@
         "mobile": "Single column; nav \u2192 drawer/hamburger; hero stacks",
         "tablet": "Split panels begin; denser grids",
         "desktop": "Full composition from Design DNA",
-        "density": "compact",
+        "density": "airy",
         "playwright_mobile": false
       },
       "findings": [],
@@ -167,7 +155,7 @@
       "ok": true,
       "blocking": false,
       "findings": [],
-      "scanned_files": 76,
+      "scanned_files": 62,
       "message": "Security gate \u2014 secret scan + intent auth/admin coherence"
     },
     "13_functional": {
@@ -179,6 +167,11 @@
           "id": "home_render",
           "ok": true,
           "detail": "Home page present in page DNA"
+        },
+        {
+          "id": "cart_checkout",
+          "ok": true,
+          "detail": "Cart context or checkout route"
         },
         {
           "id": "auth",
@@ -207,7 +200,7 @@
         {
           "kind": "visual_qa_fail",
           "hint": "Strengthen section invention / copy density before publish",
-          "findings": 3
+          "findings": 1
         }
       ],
       "memory_path": "dwene/bible/creative-memory.json",
