@@ -1,22 +1,230 @@
 {
+  "version": 1,
   "pages": [
     {
+      "connections": [
+        {
+          "engine": "VRSCE",
+          "from": "hero",
+          "relation": "leads_to",
+          "to": "cta"
+        }
+      ],
       "id": "home",
-      "layout": "MessengerLayout",
+      "layout": "MarketingLayout",
       "route": "/",
       "sections": [
         {
-          "body": "Private conversations for RicoGram. Search people, open a thread, and keep chatting \u2014 original branded messenger experience.",
-          "chrome": "brutalist",
-          "component": "ChatShell",
-          "id": "chat-shell",
-          "kind": "chat",
+          "body": "a 3D photo slider (image cards from existing products). - Add HTML: slider container, cards, prev/next buttons; keep welcome text minimal. - Add CSS: `.slider-3d { perspective: 1200px; }`, cards use `transform: rotateY(angle) translateZ(radius)`, smooth transition. - Add JS: track `currentIndex`, rotate container, update active card, auto-advance every 4s. - Ensure cart/drawer close: verify `[data-cart-close]` calls `closeCart()`, removes `.open`/`.active`, and Escape closes panel. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades.",
+          "chrome": "pill",
+          "component": "Hero",
+          "cta_label": "Shop now",
+          "glance": "Products, details, and checkout that stays out of the way.",
+          "id": "hero",
+          "image": "https://loremflickr.com/1800/1100/workspace,lifestyle,creative/all?lock=5658",
+          "images": [
+            "https://loremflickr.com/1800/1100/workspace,lifestyle,creative/all?lock=5658",
+            "https://loremflickr.com/1800/1100/workspace,lifestyle,creative/all?lock=9137",
+            "https://loremflickr.com/1800/1100/workspace,lifestyle,creative/all?lock=3716"
+          ],
+          "kind": "hero",
+          "mediaKind": "image",
+          "media_kind": "image",
           "page": "home",
-          "presentation": "cards",
-          "title": "RicoGram Messages"
+          "presentation": "tiles",
+          "title": "Sneaks",
+          "video": false,
+          "video_background": false
+        },
+        {
+          "body": "Browse featured products from Sneaks \u2014 add favorites to your cart.",
+          "component": "ProductGrid",
+          "id": "catalog-2",
+          "kind": "catalog",
+          "layout": {
+            "align": "start",
+            "cols": 3,
+            "gap": "md"
+          },
+          "page": "home",
+          "products": [
+            {
+              "colors": [
+                "Black",
+                "White"
+              ],
+              "currency": "NGN",
+              "description": "Signature pick from Sneaks. Replace from Admin anytime.",
+              "id": "demo-1",
+              "images": [],
+              "name": "Sneaks Classic",
+              "price": 28,
+              "sizes": [
+                "S",
+                "M",
+                "L"
+              ],
+              "sku": "DEMO-1"
+            },
+            {
+              "colors": [
+                "Navy",
+                "Cream"
+              ],
+              "currency": "NGN",
+              "description": "Everyday favorite \u2014 edit price, sizes, and photos in Admin.",
+              "id": "demo-2",
+              "images": [],
+              "name": "Sneaks Essentials",
+              "price": 42,
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ],
+              "sku": "DEMO-2"
+            },
+            {
+              "colors": [
+                "Forest"
+              ],
+              "currency": "NGN",
+              "description": "Limited drop to show cart + checkout in the preview.",
+              "id": "demo-3",
+              "images": [],
+              "name": "Sneaks Limited",
+              "price": 64,
+              "sizes": [
+                "M",
+                "L"
+              ],
+              "sku": "DEMO-3"
+            }
+          ],
+          "title": "Catalog"
+        },
+        {
+          "body": "From first visit to lasting relationship \u2014 the Sneaks path, step by step.",
+          "chrome": "pill",
+          "component": "ProcessSteps",
+          "id": "process",
+          "kind": "process",
+          "page": "home",
+          "presentation": "tiles",
+          "title": "How it works"
+        },
+        {
+          "body": "A closer look at products and details from Sneaks.",
+          "chrome": "pill",
+          "component": "Gallery",
+          "id": "gallery",
+          "kind": "gallery",
+          "layout": {
+            "align": "center"
+          },
+          "page": "home",
+          "presentation": "tiles",
+          "title": "A closer look"
+        },
+        {
+          "body": "Customers choose Sneaks for quality, clarity, and service that follows through.",
+          "chrome": "pill",
+          "component": "Testimonials",
+          "id": "testimonials",
+          "kind": "testimonials",
+          "page": "home",
+          "presentation": "tiles",
+          "title": "What shoppers say"
+        },
+        {
+          "body": "Browse featured picks or ask a question \u2014 the Sneaks team is ready to help.",
+          "chrome": "pill",
+          "component": "CTA",
+          "id": "cta",
+          "kind": "cta",
+          "page": "home",
+          "presentation": "tiles",
+          "title": "Shop the collection"
         }
       ],
-      "title": "Messages"
+      "title": "Sneaks"
+    },
+    {
+      "id": "about",
+      "layout": "MarketingLayout",
+      "route": "/about",
+      "sections": [
+        {
+          "body": "Sneaks is the ultimate online sneaker store, bringing you the freshest kicks and timeless classics. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades.",
+          "chrome": "pill",
+          "component": "Hero",
+          "id": "about-hero",
+          "kind": "hero",
+          "page": "about",
+          "presentation": "tiles",
+          "title": "About Sneaks"
+        },
+        {
+          "body": "Sneaks started with a simple idea \u2014 do fewer things, and do them exceptionally well for our community.",
+          "chrome": "pill",
+          "component": "Section",
+          "id": "about-story",
+          "kind": "text",
+          "page": "about",
+          "presentation": "tiles",
+          "title": "Our story"
+        },
+        {
+          "body": "Clarity in communication, craft in every detail, and care for the people who trust us.",
+          "chrome": "pill",
+          "component": "FeatureGrid",
+          "id": "about-values",
+          "kind": "features",
+          "page": "about",
+          "presentation": "tiles",
+          "title": "What we believe"
+        }
+      ],
+      "title": "About"
+    },
+    {
+      "id": "services",
+      "layout": "MarketingLayout",
+      "route": "/services",
+      "sections": [
+        {
+          "body": "Sneaks offers carefully chosen products with clear details, fair pricing, and checkout that stays simple.",
+          "chrome": "pill",
+          "component": "Hero",
+          "id": "services-hero",
+          "kind": "hero",
+          "page": "services",
+          "presentation": "tiles",
+          "title": "Services"
+        },
+        {
+          "body": "Consultations tailored to your goals. | Hands-on care with clear next steps. | Prevention and education so you leave informed. | Flexible scheduling for busy weeks. | Follow-up that keeps progress on track. | Transparent options before you decide.",
+          "chrome": "pill",
+          "component": "FeatureGrid",
+          "id": "services-grid",
+          "kind": "features",
+          "page": "services",
+          "presentation": "tiles",
+          "title": "What we offer"
+        },
+        {
+          "body": "Tell us what you need \u2014 the Sneaks team will help you choose the right path.",
+          "chrome": "pill",
+          "component": "CTA",
+          "id": "services-cta",
+          "kind": "cta",
+          "page": "services",
+          "presentation": "tiles",
+          "title": "Ask about a visit"
+        }
+      ],
+      "title": "Services"
     },
     {
       "id": "contact",
@@ -24,244 +232,103 @@
       "route": "/contact",
       "sections": [
         {
-          "body": "Reach the RicoGram team \u2014 we respond within one business day and are happy to help with clear next steps for whatever you need.",
-          "chrome": "brutalist",
+          "body": "Reach the Sneaks team \u2014 we respond within one business day and are happy to help.",
+          "chrome": "pill",
           "component": "Hero",
           "id": "contact-hero",
           "kind": "hero",
           "page": "contact",
-          "presentation": "cards",
+          "presentation": "tiles",
           "title": "Contact us"
         },
         {
-          "body": "RicoGram helps people feel informed, supported, and confident.",
-          "chrome": "brutalist",
+          "body": "Sneaks is the ultimate online sneaker store, bringing you the freshest kicks and timeless classics. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades.",
+          "chrome": "pill",
           "component": "ContactForm",
           "id": "contact-form",
           "kind": "contact",
           "page": "contact",
-          "presentation": "cards",
+          "presentation": "tiles",
           "title": "Send a message"
         },
         {
-          "body": "Hours, location, and what to expect when you contact RicoGram. We keep responses clear so you always know the next step.",
-          "chrome": "brutalist",
+          "body": "Hours, location, and what to expect when you contact Sneaks.",
+          "chrome": "pill",
           "component": "FAQ",
           "id": "contact-faq",
           "kind": "faq",
           "page": "contact",
-          "presentation": "cards",
+          "presentation": "tiles",
           "title": "Before you write"
         }
       ],
       "title": "Contact"
     },
     {
-      "id": "features",
+      "id": "shop",
       "layout": "MarketingLayout",
-      "route": "/features",
+      "route": "/shop",
       "sections": [
         {
-          "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
+          "body": "Product catalog \u2014 owner publishes inventory from Dwene website card Admin",
+          "chrome": "pill",
+          "component": "FeatureGrid",
+          "id": "shop-hero",
+          "kicker": "Offer",
+          "kind": "features",
+          "page": "shop",
+          "presentation": "tiles",
+          "title": "Shop"
+        },
+        {
+          "body": "Live product grid (empty until the Dwene owner publishes inventory)",
+          "chrome": "pill",
+          "component": "FeatureGrid",
+          "id": "products",
+          "kicker": "Offer",
+          "kind": "features",
+          "page": "shop",
+          "presentation": "tiles",
+          "title": "Products"
+        }
+      ],
+      "title": "Shop"
+    },
+    {
+      "id": "login",
+      "layout": "MarketingLayout",
+      "route": "/login",
+      "sections": [
+        {
+          "body": "Login to continue with Sneaks. Secure access for members.",
+          "chrome": "pill",
           "component": "Hero",
-          "id": "features-hero",
+          "id": "login-hero",
           "kind": "hero",
-          "page": "features",
-          "presentation": "cards",
-          "title": "Features"
-        },
-        {
-          "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
-          "component": "Section",
-          "id": "features-body",
-          "kind": "text",
-          "page": "features",
-          "presentation": "cards",
-          "title": "About features"
-        },
-        {
-          "body": "Reach out to RicoGram and we will respond within one business day.",
-          "chrome": "brutalist",
-          "component": "CTA",
-          "id": "features-cta",
-          "kind": "cta",
-          "page": "features",
-          "presentation": "cards",
-          "title": "Ready when you are"
+          "page": "login",
+          "presentation": "tiles",
+          "title": "Login"
         }
       ],
-      "title": "Features"
+      "title": "Login"
     },
     {
-      "id": "security",
+      "id": "register",
       "layout": "MarketingLayout",
-      "route": "/security",
+      "route": "/register",
       "sections": [
         {
-          "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
+          "body": "Create account to continue with Sneaks. Secure access for members.",
+          "chrome": "pill",
           "component": "Hero",
-          "id": "security-hero",
+          "id": "register-hero",
           "kind": "hero",
-          "page": "security",
-          "presentation": "cards",
-          "title": "Security"
-        },
-        {
-          "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
-          "component": "Section",
-          "id": "security-body",
-          "kind": "text",
-          "page": "security",
-          "presentation": "cards",
-          "title": "About security"
-        },
-        {
-          "body": "Reach out to RicoGram and we will respond within one business day.",
-          "chrome": "brutalist",
-          "component": "CTA",
-          "id": "security-cta",
-          "kind": "cta",
-          "page": "security",
-          "presentation": "cards",
-          "title": "Ready when you are"
+          "page": "register",
+          "presentation": "tiles",
+          "title": "Create account"
         }
       ],
-      "title": "Security"
-    },
-    {
-      "id": "download",
-      "layout": "MarketingLayout",
-      "route": "/download",
-      "sections": [
-        {
-          "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
-          "component": "Hero",
-          "id": "download-hero",
-          "kind": "hero",
-          "page": "download",
-          "presentation": "cards",
-          "title": "Download"
-        },
-        {
-          "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
-          "component": "Section",
-          "id": "download-body",
-          "kind": "text",
-          "page": "download",
-          "presentation": "cards",
-          "title": "About download"
-        },
-        {
-          "body": "Reach out to RicoGram and we will respond within one business day.",
-          "chrome": "brutalist",
-          "component": "CTA",
-          "id": "download-cta",
-          "kind": "cta",
-          "page": "download",
-          "presentation": "cards",
-          "title": "Ready when you are"
-        }
-      ],
-      "title": "Download"
-    },
-    {
-      "id": "support",
-      "layout": "MarketingLayout",
-      "route": "/support",
-      "sections": [
-        {
-          "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
-          "component": "Hero",
-          "id": "support-hero",
-          "kind": "hero",
-          "page": "support",
-          "presentation": "cards",
-          "title": "Support"
-        },
-        {
-          "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-          "chrome": "brutalist",
-          "component": "Section",
-          "id": "support-body",
-          "kind": "text",
-          "page": "support",
-          "presentation": "cards",
-          "title": "About support"
-        },
-        {
-          "body": "Reach out to RicoGram and we will respond within one business day.",
-          "chrome": "brutalist",
-          "component": "CTA",
-          "id": "support-cta",
-          "kind": "cta",
-          "page": "support",
-          "presentation": "cards",
-          "title": "Ready when you are"
-        }
-      ],
-      "title": "Support"
-    },
-    {
-      "id": "messages",
-      "layout": "MarketingLayout",
-      "route": "/messages",
-      "sections": [
-        {
-          "body": "Messages workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
-          "chrome": "brutalist",
-          "component": "ChatShell",
-          "id": "messages-chat",
-          "kind": "chat",
-          "page": "messages",
-          "presentation": "cards",
-          "title": "RicoGram Messages"
-        }
-      ],
-      "title": "Messages"
-    },
-    {
-      "id": "profile",
-      "layout": "MarketingLayout",
-      "route": "/profile",
-      "sections": [
-        {
-          "body": "Profile workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
-          "chrome": "brutalist",
-          "component": "ProfileShell",
-          "id": "profile-profile",
-          "kind": "profile",
-          "page": "profile",
-          "presentation": "cards",
-          "title": "RicoGram Profile"
-        }
-      ],
-      "title": "Profile"
-    },
-    {
-      "id": "friends",
-      "layout": "MarketingLayout",
-      "route": "/friends",
-      "sections": [
-        {
-          "body": "Friends workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
-          "chrome": "brutalist",
-          "component": "FriendsShell",
-          "id": "friends-friends",
-          "kind": "friends",
-          "page": "friends",
-          "presentation": "cards",
-          "title": "RicoGram Friends"
-        }
-      ],
-      "title": "Friends"
+      "title": "Create account"
     }
-  ],
-  "version": 1
+  ]
 }
