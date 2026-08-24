@@ -5,11 +5,11 @@ export const MOTION = {
   pageTransitions: true,
   forms: true,
   respectReducedMotion: true,
-  three: false,
-  language: "scale",
+  three: true,
+  language: "minimal-restrained",
   intensity: "medium",
-  primary: "#ea580c",
-  secondary: "#f97316",
+  primary: "#be123c",
+  secondary: "#f59e0b",
 } as const;
 
 /** Page / section transition presets keyed by design DNA motion language. */
