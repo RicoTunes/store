@@ -1,9 +1,9 @@
 {
   "engine": "03_design_diversity",
   "ok": true,
-  "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
-  "noveltyScore": 0.7807,
-  "archetype": "neo-brutalist",
-  "heroStrategy": "no-hero",
+  "signature": "media-stack|floating|hero-catalog-process-gallery-testimonials-cta|12-column|pill|tiles|space-dm|airy|stagger|modular",
+  "noveltyScore": 1.0,
+  "archetype": "playful",
+  "heroStrategy": "media-stack",
   "message": "DDDE DesignManifest applied"
 }
