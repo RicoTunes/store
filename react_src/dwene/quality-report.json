@@ -1,85 +1,56 @@
 {
   "artDirection": {
-    "businessFamily": "social",
-    "compositionDirection": "layered",
-    "contrast": "extreme",
-    "density": "compact",
+    "businessFamily": "shop",
+    "compositionDirection": "modular",
+    "contrast": "vivid",
+    "density": "airy",
     "engine": "DSDQE",
-    "imageDirection": "floating",
-    "mood": "bold",
-    "motionDirection": "scale",
-    "personality": "irreverent",
-    "tone": "playful-direct",
-    "typographyDirection": "display-impact",
-    "visualArchetype": "neo-brutalist",
-    "visualRhythm": "punchy",
-    "whitespace": "tight"
+    "imageDirection": "circular",
+    "mood": "dynamic",
+    "motionDirection": "stagger",
+    "personality": "expressive",
+    "tone": "warm",
+    "typographyDirection": "rounded-friendly",
+    "visualArchetype": "playful",
+    "visualRhythm": "bouncy",
+    "whitespace": "balanced"
   },
   "critique": {
     "findings": [
-      {
-        "finding": "Visual excellence below world-class bar \u2014 composition feels unfinished.",
-        "fix": "boost_hierarchy",
-        "persona": "Art Director",
-        "severity": "high"
-      },
-      {
-        "finding": "Users may not immediately understand primary action or hierarchy.",
-        "fix": "ensure_cta_clarity",
-        "persona": "UX Designer",
-        "severity": "high"
-      },
-      {
-        "finding": "No hero and weak introductory content \u2014 orientation is unclear.",
-        "fix": "boost_hierarchy",
-        "persona": "UX Designer",
-        "severity": "high"
-      },
-      {
-        "finding": "Motion does not support hierarchy or feels noisy.",
-        "fix": "enrich_motion",
-        "persona": "Motion Designer",
-        "severity": "medium"
-      },
       {
         "finding": "Accessibility risk \u2014 contrast, motion, or glass overlays.",
         "fix": "spacing_align",
         "persona": "Accessibility Specialist",
         "severity": "high"
+      },
+      {
+        "finding": "Heavy hero/motion stack threatens perceived performance.",
+        "fix": "restrain_motion",
+        "persona": "Performance Engineer",
+        "severity": "medium"
       }
     ],
     "improvePlan": [
-      "boost_hierarchy",
-      "ensure_cta_clarity",
       "spacing_align",
-      "enrich_motion"
+      "restrain_motion"
     ]
   },
   "engine": "DSDQE",
-  "family": "social",
+  "family": "shop",
   "gate": {
     "failing": [
-      "visualExcellence",
-      "ux",
       "accessibility",
-      "originality",
       "overall"
     ],
     "needsStructuralRegen": false,
     "ok": false,
-    "overall": 83.5,
+    "overall": 87.2,
     "pass": false,
     "reasons": [
-      "visualExcellence=83.5 < 85.0",
-      "ux=82.6 < 85.0",
       "accessibility=82.0 < 85.0",
-      "originality=76.4 < 85.0",
-      "overall=83.5 < 88.0"
+      "overall=87.2 < 88.0"
     ],
-    "structuralFailing": [
-      "composition",
-      "informationHierarchy"
-    ],
+    "structuralFailing": [],
     "thresholds": {
       "accessibility": 85,
       "interaction": 85,
@@ -92,35 +63,31 @@
   },
   "generic": {
     "flags": [],
-    "noveltyScore": 0.7807,
+    "noveltyScore": 1.0,
     "penalty": 0.0
   },
   "history": [
     {
       "ok": false,
-      "overall": 83.5,
+      "overall": 87.2,
       "pass": 0
     },
     {
       "appliedOps": [
-        "boost_hierarchy",
-        "ensure_cta_clarity",
         "spacing_align",
-        "enrich_motion"
+        "restrain_motion"
       ],
       "ok": false,
-      "overall": 83.5,
+      "overall": 87.2,
       "pass": 1
     },
     {
       "appliedOps": [
-        "boost_hierarchy",
-        "ensure_cta_clarity",
         "spacing_align",
-        "enrich_motion"
+        "restrain_motion"
       ],
       "ok": false,
-      "overall": 83.5,
+      "overall": 87.2,
       "pass": 2
     }
   ],
@@ -130,27 +97,27 @@
     "accessibility": 82.0,
     "brandExpression": 88.0,
     "color": 88.0,
-    "composition": 66.0,
+    "composition": 82.0,
     "consistency": 96.0,
-    "contentPresentation": 89.0,
-    "contrast": 84.0,
-    "conversion": 84.0,
+    "contentPresentation": 91.0,
+    "contrast": 78.0,
+    "conversion": 94.0,
     "emotionalImpact": 82.0,
-    "informationHierarchy": 72.0,
+    "informationHierarchy": 84.0,
     "interaction": 86.0,
     "layout": 83.0,
     "microInteractions": 78.0,
     "mobile": 90.0,
-    "motion": 74.0,
-    "originality": 76.4,
-    "overall": 83.5,
-    "performance": 82.0,
+    "motion": 82.0,
+    "originality": 95.0,
+    "overall": 87.2,
+    "performance": 75.0,
     "responsive": 88.0,
-    "spacing": 88.0,
+    "spacing": 93.0,
     "technical": 94.0,
     "typography": 96.0,
-    "ux": 82.6,
-    "visualExcellence": 83.5
+    "ux": 86.0,
+    "visualExcellence": 88.3
   },
   "status": "best_effort",
   "structuralRegen": false,
@@ -163,7 +130,7 @@
     "ux": 85,
     "visualExcellence": 85
   },
-  "updated_at": 1786905931.1260324,
+  "updated_at": 1786488300.780371,
   "verdict": "Needs refinement \u2014 shipped best-effort with quality report",
   "version": 1,
   "worldClassBar": "Would this be credible as work from a world-class digital product studio?"
