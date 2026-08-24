@@ -1,13 +1,19 @@
 {
-  "title": "RicoGram",
-  "description": "RicoGram is a secure messenger for private chats and lively group spaces. Share crystal-clear media, run rooms with real controls, and keep your messages where they belong \u2014 in your hands.",
+  "title": "Sneaks",
+  "description": "Sneaks is the ultimate online sneaker store, bringing you the freshest kicks and timeless classics. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades.",
   "og": {
-    "title": "RicoGram",
-    "description": "RicoGram is a secure messenger for private chats and lively group spaces. Share crystal-clear media, run rooms with real controls, and keep your messages where they belong \u2014 in your hands.",
+    "title": "Sneaks",
+    "description": "Sneaks is the ultimate online sneaker store, bringing you the freshest kicks and timeless classics. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades.",
     "type": "website"
   },
   "routes": [
     "/",
-    "/contact"
+    "/shop",
+    "/services",
+    "/about",
+    "/contact",
+    "/login",
+    "/register",
+    "/checkout"
   ]
 }
