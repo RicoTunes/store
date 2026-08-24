@@ -18,7 +18,7 @@
     "playwright"
   ],
   "console_error_count": 0,
-  "dist": "/data/generated_docs/dwene-site-17ee6196/dist",
+  "dist": "/data/generated_docs/beam-site-ddfb9e75/dist",
   "compile_mode": "vite",
   "message": "Playwright pixel + axe + journey E2E against dist/"
 }
