@@ -1511,7 +1511,7 @@ export function SocialFeed({
             </div>
           </aside>
         ) : null}
-        <div className="min-w-0 space-y-3">
+        <div className="min-w-0 max-w-full space-y-3 overflow-x-hidden">
           {storiesStyle !== 'stories-hidden' ? (
           <div
             className={
@@ -1583,16 +1583,18 @@ export function SocialFeed({
             id="compose"
             onSubmit={(e) => void onCreate(e)}
             className={
+              `min-w-0 w-full max-w-full overflow-x-hidden ` + (
               effectiveComposer === 'composer-bar'
-                ? 'rounded-full bg-surface px-3 py-2 ring-1 ring-black/5'
+                ? 'rounded-2xl bg-surface px-3 py-3 ring-1 ring-black/5'
                 : effectiveComposer === 'composer-minimal'
                   ? 'border-b border-black/10 bg-transparent py-2'
                   : effectiveComposer === 'composer-expanded'
                     ? 'rounded-2xl bg-surface p-4 shadow-sm ring-1 ring-black/5'
                     : 'rounded-2xl bg-surface p-3 ring-1 ring-black/5'
+              )
             }
           >
-            <div className="flex gap-3">
+            <div className="flex min-w-0 gap-3">
               <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/15 text-xs font-bold text-primary">
                 {String(user?.name || 'Y')
                   .split(/\s+/)
@@ -1606,7 +1608,7 @@ export function SocialFeed({
                 onChange={(e) => setDraft(e.target.value)}
                 rows={2}
                 placeholder="What's on your mind?"
-                className="w-full resize-none rounded-xl border border-black/10 bg-background px-3 py-2 text-sm text-ink outline-none focus:ring-2 focus:ring-primary/30"
+                className="min-w-0 flex-1 resize-none rounded-xl border border-black/10 bg-background px-3 py-2 text-sm text-ink outline-none focus:ring-2 focus:ring-primary/30"
               />
             </div>
             {imageUrls.length ? (
@@ -1656,30 +1658,30 @@ export function SocialFeed({
                 value={feeling}
                 onChange={(e) => setFeeling(e.target.value)}
                 placeholder="Feeling… (happy, grateful, focused)"
-                className="mt-3 w-full rounded-lg border border-black/10 bg-background px-3 py-2 text-sm"
+                className="mt-3 w-full min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm"
               />
             ) : null}
             {composerKind === 'event' ? (
-              <div className="mt-3 grid gap-2 sm:grid-cols-3">
-                <input value={eventTitle} onChange={(e) => setEventTitle(e.target.value)} placeholder="Event title" className="rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
-                <input value={eventWhen} onChange={(e) => setEventWhen(e.target.value)} placeholder="When" className="rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
-                <input value={eventWhere} onChange={(e) => setEventWhere(e.target.value)} placeholder="Where" className="rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
+              <div className="mt-3 grid min-w-0 gap-2 sm:grid-cols-3">
+                <input value={eventTitle} onChange={(e) => setEventTitle(e.target.value)} placeholder="Event title" className="min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
+                <input value={eventWhen} onChange={(e) => setEventWhen(e.target.value)} placeholder="When" className="min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
+                <input value={eventWhere} onChange={(e) => setEventWhere(e.target.value)} placeholder="Where" className="min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
               </div>
             ) : null}
             {composerKind === 'poll' ? (
-              <div className="mt-3 space-y-2">
-                <input value={pollQuestion} onChange={(e) => setPollQuestion(e.target.value)} placeholder="Poll question" className="w-full rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
-                <textarea value={pollOptions} onChange={(e) => setPollOptions(e.target.value)} rows={3} placeholder="One option per line" className="w-full rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
+              <div className="mt-3 min-w-0 space-y-2">
+                <input value={pollQuestion} onChange={(e) => setPollQuestion(e.target.value)} placeholder="Poll question" className="w-full min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
+                <textarea value={pollOptions} onChange={(e) => setPollOptions(e.target.value)} rows={3} placeholder="One option per line" className="w-full min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
               </div>
             ) : null}
             {composerKind === 'article' ? (
-              <div className="mt-3 grid gap-2 sm:grid-cols-2">
-                <input value={articleTitle} onChange={(e) => setArticleTitle(e.target.value)} placeholder="Article title" className="rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
-                <input value={articleUrl} onChange={(e) => setArticleUrl(e.target.value)} placeholder="https://…" className="rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
+              <div className="mt-3 grid min-w-0 gap-2 sm:grid-cols-2">
+                <input value={articleTitle} onChange={(e) => setArticleTitle(e.target.value)} placeholder="Article title" className="min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
+                <input value={articleUrl} onChange={(e) => setArticleUrl(e.target.value)} placeholder="https://…" className="min-w-0 rounded-lg border border-black/10 bg-background px-3 py-2 text-sm" />
               </div>
             ) : null}
-            <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-black/5 pt-3">
-              <div className="flex flex-wrap items-center gap-1">
+            <div className="mt-3 flex min-w-0 flex-wrap items-center justify-between gap-2 border-t border-black/5 pt-3">
+              <div className="flex min-w-0 max-w-full flex-wrap items-center gap-1">
                 <input
                   ref={videoFileRef}
                   type="file"
@@ -1749,20 +1751,20 @@ export function SocialFeed({
                   type="datetime-local"
                   value={scheduledLocal}
                   onChange={(e) => setScheduledLocal(e.target.value)}
-                  className="rounded-lg border border-black/10 bg-background px-2 py-1 text-xs text-ink"
+                  className="max-w-full min-w-0 rounded-lg border border-black/10 bg-background px-2 py-1 text-xs text-ink sm:max-w-[11rem]"
                   aria-label="Schedule post"
                 />
                 <select
                   value={privacy}
                   onChange={(e) => setPrivacy(e.target.value)}
-                  className="rounded-lg border border-black/10 bg-background px-2 py-1 text-xs text-ink"
+                  className="max-w-full min-w-0 rounded-lg border border-black/10 bg-background px-2 py-1 text-xs text-ink"
                 >
                   <option value="public">Public</option>
                   <option value="friends">Friends</option>
                   <option value="only_me">Only me</option>
                 </select>
               </div>
-              <Button type="submit" disabled={busy || (!draft.trim() && !imageUrls.length && !videoUrl && !feeling && !articleUrl && composerKind !== 'poll' && composerKind !== 'event')}>
+              <Button type="submit" className="shrink-0" disabled={busy || (!draft.trim() && !imageUrls.length && !videoUrl && !feeling && !articleUrl && composerKind !== 'poll' && composerKind !== 'event')}>
                 {busy ? 'Posting…' : scheduledLocal ? 'Schedule' : 'Post'}
               </Button>
             </div>
