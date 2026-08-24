@@ -1,6 +1,67 @@
 {
-  "brand": "RicoGram",
+  "brand": "Sneaks",
   "edges": [
+    {
+      "from": "home:hero",
+      "id": "home:hero->home:catalog",
+      "kind": "flow",
+      "to": "home:catalog"
+    },
+    {
+      "from": "home:catalog",
+      "id": "home:catalog->home:process",
+      "kind": "flow",
+      "to": "home:process"
+    },
+    {
+      "from": "home:process",
+      "id": "home:process->home:gallery",
+      "kind": "flow",
+      "to": "home:gallery"
+    },
+    {
+      "from": "home:gallery",
+      "id": "home:gallery->home:testimonials",
+      "kind": "flow",
+      "to": "home:testimonials"
+    },
+    {
+      "from": "home:testimonials",
+      "id": "home:testimonials->home:cta",
+      "kind": "flow",
+      "to": "home:cta"
+    },
+    {
+      "engine": "VRSCE",
+      "from": "home:hero",
+      "id": "home:hero~cta",
+      "kind": "leads_to",
+      "to": "home:cta"
+    },
+    {
+      "from": "about:about-hero",
+      "id": "about:about-hero->about:about-story",
+      "kind": "flow",
+      "to": "about:about-story"
+    },
+    {
+      "from": "about:about-story",
+      "id": "about:about-story->about:about-values",
+      "kind": "flow",
+      "to": "about:about-values"
+    },
+    {
+      "from": "services:services-hero",
+      "id": "services:services-hero->services:services-grid",
+      "kind": "flow",
+      "to": "services:services-grid"
+    },
+    {
+      "from": "services:services-grid",
+      "id": "services:services-grid->services:services-cta",
+      "kind": "flow",
+      "to": "services:services-cta"
+    },
     {
       "from": "contact:contact-hero",
       "id": "contact:contact-hero->contact:contact-form",
@@ -14,81 +75,226 @@
       "to": "contact:contact-faq"
     },
     {
-      "from": "features:features-hero",
-      "id": "features:features-hero->features:features-body",
+      "from": "shop:shop-hero",
+      "id": "shop:shop-hero->shop:products",
       "kind": "flow",
-      "to": "features:features-body"
-    },
-    {
-      "from": "features:features-body",
-      "id": "features:features-body->features:features-cta",
-      "kind": "flow",
-      "to": "features:features-cta"
-    },
-    {
-      "from": "security:security-hero",
-      "id": "security:security-hero->security:security-body",
-      "kind": "flow",
-      "to": "security:security-body"
-    },
-    {
-      "from": "security:security-body",
-      "id": "security:security-body->security:security-cta",
-      "kind": "flow",
-      "to": "security:security-cta"
-    },
-    {
-      "from": "download:download-hero",
-      "id": "download:download-hero->download:download-body",
-      "kind": "flow",
-      "to": "download:download-body"
-    },
-    {
-      "from": "download:download-body",
-      "id": "download:download-body->download:download-cta",
-      "kind": "flow",
-      "to": "download:download-cta"
-    },
-    {
-      "from": "support:support-hero",
-      "id": "support:support-hero->support:support-body",
-      "kind": "flow",
-      "to": "support:support-body"
-    },
-    {
-      "from": "support:support-body",
-      "id": "support:support-body->support:support-cta",
-      "kind": "flow",
-      "to": "support:support-cta"
+      "to": "shop:products"
     }
   ],
   "engine": "VCAE",
   "nodes": [
     {
-      "body": "Private conversations for RicoGram. Search people, open a thread, and keep chatting \u2014 original branded messenger experience.",
-      "component": "ChatShell",
+      "body": "Sneaks is the ultimate online sneaker store, bringing you the freshest kicks and timeless classics. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades. Continue to cta.",
+      "component": "Hero",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
         "y": 0
       },
-      "id": "home:chat-shell",
-      "kind": "chat",
+      "id": "home:hero",
+      "kind": "hero",
       "order": 0,
       "page_id": "home",
-      "section_id": "chat-shell",
-      "title": "RicoGram Messages",
+      "section_id": "hero",
+      "title": "Sneaks",
       "type": "section"
     },
     {
-      "body": "Reach the RicoGram team \u2014 we respond within one business day and are happy to help with clear next steps for whatever you need.",
-      "component": "Hero",
+      "body": "Browse curated products from Sneaks \u2014 the owner publishes real inventory from the shop admin.",
+      "component": "ProductGrid",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
         "y": 140
+      },
+      "id": "home:catalog",
+      "kind": "catalog",
+      "order": 1,
+      "page_id": "home",
+      "section_id": "catalog",
+      "title": "Featured picks",
+      "type": "section"
+    },
+    {
+      "body": "From first visit to lasting relationship \u2014 the Sneaks path, step by step.",
+      "component": "ProcessSteps",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 280
+      },
+      "id": "home:process",
+      "kind": "process",
+      "order": 2,
+      "page_id": "home",
+      "section_id": "process",
+      "title": "How it works",
+      "type": "section"
+    },
+    {
+      "body": "A closer look at products and details from Sneaks.",
+      "component": "Gallery",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 420
+      },
+      "id": "home:gallery",
+      "kind": "gallery",
+      "order": 3,
+      "page_id": "home",
+      "section_id": "gallery",
+      "title": "A closer look",
+      "type": "section"
+    },
+    {
+      "body": "Customers choose Sneaks for quality, clarity, and service that follows through.",
+      "component": "Testimonials",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 560
+      },
+      "id": "home:testimonials",
+      "kind": "testimonials",
+      "order": 4,
+      "page_id": "home",
+      "section_id": "testimonials",
+      "title": "What shoppers say",
+      "type": "section"
+    },
+    {
+      "body": "Browse featured picks or ask a question \u2014 the Sneaks team is ready to help.",
+      "component": "CTA",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 700
+      },
+      "id": "home:cta",
+      "kind": "cta",
+      "order": 5,
+      "page_id": "home",
+      "section_id": "cta",
+      "title": "Shop the collection",
+      "type": "section"
+    },
+    {
+      "body": "Sneaks is the ultimate online sneaker store, bringing you the freshest kicks and timeless classics. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 840
+      },
+      "id": "about:about-hero",
+      "kind": "hero",
+      "order": 0,
+      "page_id": "about",
+      "section_id": "about-hero",
+      "title": "About Sneaks",
+      "type": "section"
+    },
+    {
+      "body": "Sneaks started with a simple idea \u2014 do fewer things, and do them exceptionally well for our community.",
+      "component": "Section",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 980
+      },
+      "id": "about:about-story",
+      "kind": "text",
+      "order": 1,
+      "page_id": "about",
+      "section_id": "about-story",
+      "title": "Our story",
+      "type": "section"
+    },
+    {
+      "body": "Clarity in communication, craft in every detail, and care for the people who trust us.",
+      "component": "FeatureGrid",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1120
+      },
+      "id": "about:about-values",
+      "kind": "features",
+      "order": 2,
+      "page_id": "about",
+      "section_id": "about-values",
+      "title": "What we believe",
+      "type": "section"
+    },
+    {
+      "body": "Sneaks offers carefully chosen products with clear details, fair pricing, and checkout that stays simple.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1260
+      },
+      "id": "services:services-hero",
+      "kind": "hero",
+      "order": 0,
+      "page_id": "services",
+      "section_id": "services-hero",
+      "title": "Services",
+      "type": "section"
+    },
+    {
+      "body": "Consultations tailored to your goals. | Hands-on care with clear next steps. | Prevention and education so you leave informed. | Flexible scheduling for busy weeks. | Follow-up that keeps progress on track. | Transparent options before you decide.",
+      "component": "FeatureGrid",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1400
+      },
+      "id": "services:services-grid",
+      "kind": "features",
+      "order": 1,
+      "page_id": "services",
+      "section_id": "services-grid",
+      "title": "What we offer",
+      "type": "section"
+    },
+    {
+      "body": "Tell us what you need \u2014 the Sneaks team will help you choose the right path.",
+      "component": "CTA",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1540
+      },
+      "id": "services:services-cta",
+      "kind": "cta",
+      "order": 2,
+      "page_id": "services",
+      "section_id": "services-cta",
+      "title": "Ask about a visit",
+      "type": "section"
+    },
+    {
+      "body": "Reach the Sneaks team \u2014 we respond within one business day and are happy to help.",
+      "component": "Hero",
+      "frame": {
+        "h": 120,
+        "w": 720,
+        "x": 40,
+        "y": 1680
       },
       "id": "contact:contact-hero",
       "kind": "hero",
@@ -99,13 +305,13 @@
       "type": "section"
     },
     {
-      "body": "RicoGram helps people feel informed, supported, and confident.",
+      "body": "Sneaks is the ultimate online sneaker store, bringing you the freshest kicks and timeless classics. Discover exclusive releases and shop with one-click Buy Now for instant style upgrades.",
       "component": "ContactForm",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
-        "y": 280
+        "y": 1820
       },
       "id": "contact:contact-form",
       "kind": "contact",
@@ -116,13 +322,13 @@
       "type": "section"
     },
     {
-      "body": "Hours, location, and what to expect when you contact RicoGram. We keep responses clear so you always know the next step.",
+      "body": "Hours, location, and what to expect when you contact Sneaks.",
       "component": "FAQ",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
-        "y": 420
+        "y": 1960
       },
       "id": "contact:contact-faq",
       "kind": "faq",
@@ -133,258 +339,71 @@
       "type": "section"
     },
     {
-      "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Hero",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 560
-      },
-      "id": "features:features-hero",
-      "kind": "hero",
-      "order": 0,
-      "page_id": "features",
-      "section_id": "features-hero",
-      "title": "Features",
-      "type": "section"
-    },
-    {
-      "body": "Showcase messaging, groups, media sharing, and privacy tools RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Section",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 700
-      },
-      "id": "features:features-body",
-      "kind": "text",
-      "order": 1,
-      "page_id": "features",
-      "section_id": "features-body",
-      "title": "About features",
-      "type": "section"
-    },
-    {
-      "body": "Reach out to RicoGram and we will respond within one business day.",
-      "component": "CTA",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 840
-      },
-      "id": "features:features-cta",
-      "kind": "cta",
-      "order": 2,
-      "page_id": "features",
-      "section_id": "features-cta",
-      "title": "Ready when you are",
-      "type": "section"
-    },
-    {
-      "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Hero",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 980
-      },
-      "id": "security:security-hero",
-      "kind": "hero",
-      "order": 0,
-      "page_id": "security",
-      "section_id": "security-hero",
-      "title": "Security",
-      "type": "section"
-    },
-    {
-      "body": "Explain encryption, privacy controls, and moderation RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Section",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 1120
-      },
-      "id": "security:security-body",
-      "kind": "text",
-      "order": 1,
-      "page_id": "security",
-      "section_id": "security-body",
-      "title": "About security",
-      "type": "section"
-    },
-    {
-      "body": "Reach out to RicoGram and we will respond within one business day.",
-      "component": "CTA",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 1260
-      },
-      "id": "security:security-cta",
-      "kind": "cta",
-      "order": 2,
-      "page_id": "security",
-      "section_id": "security-cta",
-      "title": "Ready when you are",
-      "type": "section"
-    },
-    {
-      "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Hero",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 1400
-      },
-      "id": "download:download-hero",
-      "kind": "hero",
-      "order": 0,
-      "page_id": "download",
-      "section_id": "download-hero",
-      "title": "Download",
-      "type": "section"
-    },
-    {
-      "body": "Direct users to app stores and desktop builds RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Section",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 1540
-      },
-      "id": "download:download-body",
-      "kind": "text",
-      "order": 1,
-      "page_id": "download",
-      "section_id": "download-body",
-      "title": "About download",
-      "type": "section"
-    },
-    {
-      "body": "Reach out to RicoGram and we will respond within one business day.",
-      "component": "CTA",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 1680
-      },
-      "id": "download:download-cta",
-      "kind": "cta",
-      "order": 2,
-      "page_id": "download",
-      "section_id": "download-cta",
-      "title": "Ready when you are",
-      "type": "section"
-    },
-    {
-      "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Hero",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 1820
-      },
-      "id": "support:support-hero",
-      "kind": "hero",
-      "order": 0,
-      "page_id": "support",
-      "section_id": "support-hero",
-      "title": "Support",
-      "type": "section"
-    },
-    {
-      "body": "Answer common questions and offer help RicoGram keeps this page focused: useful detail, honest next steps, and a clear way to continue.",
-      "component": "Section",
-      "frame": {
-        "h": 120,
-        "w": 720,
-        "x": 40,
-        "y": 1960
-      },
-      "id": "support:support-body",
-      "kind": "text",
-      "order": 1,
-      "page_id": "support",
-      "section_id": "support-body",
-      "title": "About support",
-      "type": "section"
-    },
-    {
-      "body": "Reach out to RicoGram and we will respond within one business day.",
-      "component": "CTA",
+      "body": "Product catalog \u2014 owner publishes inventory from Dwene website card Admin",
+      "component": "FeatureGrid",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
         "y": 2100
       },
-      "id": "support:support-cta",
-      "kind": "cta",
-      "order": 2,
-      "page_id": "support",
-      "section_id": "support-cta",
-      "title": "Ready when you are",
+      "id": "shop:shop-hero",
+      "kind": "features",
+      "order": 0,
+      "page_id": "shop",
+      "section_id": "shop-hero",
+      "title": "Shop",
       "type": "section"
     },
     {
-      "body": "Messages workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
-      "component": "ChatShell",
+      "body": "Live product grid (empty until the Dwene owner publishes inventory)",
+      "component": "FeatureGrid",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
         "y": 2240
       },
-      "id": "messages:messages-chat",
-      "kind": "chat",
-      "order": 0,
-      "page_id": "messages",
-      "section_id": "messages-chat",
-      "title": "RicoGram Messages",
+      "id": "shop:products",
+      "kind": "features",
+      "order": 1,
+      "page_id": "shop",
+      "section_id": "products",
+      "title": "Products",
       "type": "section"
     },
     {
-      "body": "Profile workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
-      "component": "ProfileShell",
+      "body": "Login to continue with Sneaks. Secure access for members.",
+      "component": "Hero",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
         "y": 2380
       },
-      "id": "profile:profile-profile",
-      "kind": "profile",
+      "id": "login:login-hero",
+      "kind": "hero",
       "order": 0,
-      "page_id": "profile",
-      "section_id": "profile-profile",
-      "title": "RicoGram Profile",
+      "page_id": "login",
+      "section_id": "login-hero",
+      "title": "Login",
       "type": "section"
     },
     {
-      "body": "Friends workspace for RicoGram. Interactive screens assembled for this site with live-ready hooks so visitors can book, browse, or manage work without a canned template.",
-      "component": "FriendsShell",
+      "body": "Create account to continue with Sneaks. Secure access for members.",
+      "component": "Hero",
       "frame": {
         "h": 120,
         "w": 720,
         "x": 40,
         "y": 2520
       },
-      "id": "friends:friends-friends",
-      "kind": "friends",
+      "id": "register:register-hero",
+      "kind": "hero",
       "order": 0,
-      "page_id": "friends",
-      "section_id": "friends-friends",
-      "title": "RicoGram Friends",
+      "page_id": "register",
+      "section_id": "register-hero",
+      "title": "Create account",
       "type": "section"
     }
   ],
