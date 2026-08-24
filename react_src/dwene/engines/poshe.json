@@ -6,8 +6,21 @@
   "completeness_score": 100,
   "compile_mode": "vite",
   "open_issues": [],
-  "healed": [],
+  "healed": [
+    "Added missing home:features",
+    "Filled thin about page",
+    "Upgraded contact page with ContactForm",
+    "Added missing login page for auth intent",
+    "Added missing register page for auth intent",
+    "Synced navigation from page routes",
+    "Refreshed component library + registry",
+    "Synced navigation from page routes",
+    "Synced navigation from page routes",
+    "Refreshed component library + registry",
+    "Synced navigation from page routes",
+    "Refreshed component library + registry"
+  ],
   "message": "POSHE lite \u2014 completeness + fixer loop as self-heal signal",
   "implemented": true,
-  "ts": 1786905938.6022036
+  "ts": 1786488311.8737183
 }
