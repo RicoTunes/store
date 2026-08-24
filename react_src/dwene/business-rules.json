@@ -9,7 +9,12 @@
       "id": "protect_member_routes",
       "when": "intent.auth",
       "then": "protected_route_wrapper"
+    },
+    {
+      "id": "cart_checkout_flow",
+      "when": "intent.cart",
+      "then": "product_grid_add_to_cart \u2192 checkout"
     }
   ],
-  "ts": 1786905931.1291184
+  "ts": 1786488300.7865336
 }
