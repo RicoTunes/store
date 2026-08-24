@@ -5,9 +5,9 @@
   "pipeline": "run_react_workspace_pipeline",
   "phases_done": 15,
   "phases_skipped": 2,
-  "fixer_passes": 0,
+  "fixer_passes": 3,
   "autonomous": true,
   "message": "ASEE lite \u2014 orchestrator executes full React workspace build council",
   "implemented": true,
-  "ts": 1786905938.6024663
+  "ts": 1786488311.8739853
 }
