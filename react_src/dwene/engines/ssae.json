@@ -7,7 +7,7 @@
     "frontend": "react_vite",
     "routing": "react_router",
     "styling": "tailwind_dsie",
-    "pages": 9,
+    "pages": 7,
     "sections": 19,
     "layers": [
       "presentation",
@@ -19,5 +19,5 @@
   },
   "message": "SSAE lite \u2014 solution architecture snapshot from DNA",
   "implemented": true,
-  "ts": 1786905938.6023521
+  "ts": 1786488311.873907
 }
