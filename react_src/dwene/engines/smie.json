@@ -13,9 +13,10 @@
     "wallet": true
   },
   "planned": [
-    "AuthContext"
+    "AuthContext",
+    "CartContext"
   ],
   "message": "SMIE lite \u2014 React context inventory from DNA + src/contexts",
   "implemented": true,
-  "ts": 1786905938.6020997
+  "ts": 1786488311.8734496
 }
