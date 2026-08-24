@@ -4,8 +4,8 @@
   "level": "lite",
   "automations": [
     {
-      "on": "message.created",
-      "do": "fanout_feed",
+      "on": "order.created",
+      "do": "record_order",
       "channel": "site_db"
     },
     {
@@ -20,5 +20,5 @@
   "realtime": false,
   "message": "ENAE lite \u2014 event\u2192persist automations (no external email/SMS yet)",
   "implemented": true,
-  "ts": 1786905938.6021836
+  "ts": 1786488311.8736668
 }
