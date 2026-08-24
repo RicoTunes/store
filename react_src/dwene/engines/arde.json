@@ -5,12 +5,12 @@
   "decisions": [
     {
       "decision": "design_identity",
-      "choice": "neo-brutalist",
+      "choice": "playful",
       "rationale": "Per-site design identity for structural uniqueness"
     },
     {
       "decision": "card_strategy",
-      "choice": "cards",
+      "choice": "tiles",
       "rationale": "Presentation mode from diversity / visual DNA"
     },
     {
@@ -27,5 +27,5 @@
   "diversity_active": true,
   "message": "ARDE lite \u2014 recorded architecture tradeoff decisions",
   "implemented": true,
-  "ts": 1786905938.602364
+  "ts": 1786488311.8739202
 }
