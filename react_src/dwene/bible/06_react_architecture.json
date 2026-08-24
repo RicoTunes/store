@@ -8,12 +8,12 @@
     "dwene_dna": true,
     "registry": true
   },
-  "page_count": 9,
+  "page_count": 7,
   "intent_modules": [
     "auth",
-    "messenger",
-    "profile",
-    "friends"
+    "catalog",
+    "cart",
+    "payments"
   ],
   "message": "React architecture inventory (tokens, pages, DNA, registry)"
 }
