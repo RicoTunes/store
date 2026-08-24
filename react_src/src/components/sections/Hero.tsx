@@ -1,3 +1,4 @@
+import { HeroScene } from '@/motion/HeroScene';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -1085,6 +1086,7 @@ export function Hero({
 
   return (
     <section id={id} className="relative overflow-hidden border-b border-black/5">
+      <HeroScene />
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 opacity-90"
