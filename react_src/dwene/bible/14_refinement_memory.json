@@ -5,7 +5,7 @@
     {
       "kind": "visual_qa_fail",
       "hint": "Strengthen section invention / copy density before publish",
-      "findings": 3
+      "findings": 1
     }
   ],
   "memory_path": "dwene/bible/creative-memory.json",
