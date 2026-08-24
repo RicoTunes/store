@@ -1,7 +1,7 @@
 {
   "engine": "DGIPE",
   "level": "full",
-  "ts": 1786905938.0612905,
+  "ts": 1786488311.268184,
   "publish_allowed": false,
   "checks": [
     {
@@ -24,8 +24,8 @@
       "id": "supreme_quality",
       "ok": true,
       "caution": true,
-      "detail": "DSDQE overall=83.5 (best_effort)",
-      "overall": 83.5
+      "detail": "DSDQE overall=87.2 (best_effort)",
+      "overall": 87.2
     },
     {
       "id": "bible_engines",
@@ -40,6 +40,11 @@
       "detail": "All modules are production-capable"
     },
     {
+      "id": "payments_wired",
+      "ok": true,
+      "detail": "Checkout page present"
+    },
+    {
       "id": "seo_basics",
       "ok": true,
       "detail": "SEO robots/index present",
@@ -48,9 +53,9 @@
   ],
   "modules": [
     "auth",
-    "messenger",
-    "profile",
-    "friends"
+    "catalog",
+    "cart",
+    "payments"
   ],
   "stub_modules": [],
   "demo_checkout_risk": false,
