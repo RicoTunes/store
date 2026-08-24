@@ -32,10 +32,11 @@
   "enabled": [
     "design_canvas",
     "framer_motion",
+    "paystack_checkout",
     "seo_layer"
   ],
   "marketplace": false,
   "message": "PEME lite \u2014 built-in extension catalog (marketplace deferred)",
   "implemented": true,
-  "ts": 1786905938.6023371
+  "ts": 1786488311.873893
 }
