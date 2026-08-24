@@ -3,6 +3,6 @@
   "ok": true,
   "blocking": false,
   "findings": [],
-  "scanned_files": 76,
+  "scanned_files": 62,
   "message": "Security gate \u2014 secret scan + intent auth/admin coherence"
 }
