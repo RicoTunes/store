@@ -9,6 +9,11 @@
       "detail": "Home page present in page DNA"
     },
     {
+      "id": "cart_checkout",
+      "ok": true,
+      "detail": "Cart context or checkout route"
+    },
+    {
       "id": "auth",
       "ok": true,
       "detail": "Auth context or login page"
