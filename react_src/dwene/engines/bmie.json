@@ -3,17 +3,17 @@
   "engine": "BMIE",
   "level": "lite",
   "template_id": "",
-  "vertical": "chat",
+  "vertical": "retail",
   "from_scratch": true,
   "modules": [
     "auth",
-    "messenger",
-    "profile",
-    "friends"
+    "catalog",
+    "cart",
+    "payments"
   ],
   "library_size": 0,
   "templates": [],
-  "message": "BMIE lite \u2014 from-scratch `chat` + 4 backend modules",
+  "message": "BMIE lite \u2014 from-scratch `retail` + 4 backend modules",
   "implemented": true,
-  "ts": 1786905938.602342
+  "ts": 1786488311.8738987
 }
