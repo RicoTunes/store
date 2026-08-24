@@ -5,15 +5,18 @@
   "metrics": [
     "page_views",
     "cta_clicks",
+    "orders",
+    "cart_adds",
+    "checkout_starts",
     "signups",
-    "logins",
-    "messages"
+    "logins"
   ],
   "dashboards": [
-    "overview"
+    "overview",
+    "commerce"
   ],
   "storage": "site_db.agent_runs / orders aggregates",
   "message": "BIPAE lite \u2014 product metric catalog from intent (no external BI yet)",
   "implemented": true,
-  "ts": 1786905938.6023302
+  "ts": 1786488311.8738878
 }
