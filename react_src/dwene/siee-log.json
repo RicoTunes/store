@@ -3,15 +3,15 @@
   "version": 1,
   "events": [
     {
-      "ts": 1786905931.1278818,
+      "ts": 1786488300.7853842,
       "kind": "dsdqe",
       "ok": false,
-      "overall": 83.5,
+      "overall": 87.2,
       "status": "best_effort",
       "polishPasses": 2
     },
     {
-      "ts": 1786905938.5990984,
+      "ts": 1786488311.8596575,
       "kind": "bible_refinement",
       "ok": false,
       "lessons": [
@@ -20,22 +20,22 @@
       "section_order": null
     },
     {
-      "ts": 1786905938.601858,
+      "ts": 1786488311.8648279,
       "kind": "build",
       "ok": true,
       "compile_mode": "vite",
       "publish_allowed": false,
-      "fixer_passes": 0,
+      "fixer_passes": 3,
       "bible_ok": false
     }
   ],
   "last_event": {
-    "ts": 1786905938.601858,
+    "ts": 1786488311.8648279,
     "kind": "build",
     "ok": true,
     "compile_mode": "vite",
     "publish_allowed": false,
-    "fixer_passes": 0,
+    "fixer_passes": 3,
     "bible_ok": false
   }
 }
