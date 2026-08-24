@@ -6,7 +6,17 @@
     {
       "id": "home",
       "path": "/",
-      "sections": 1
+      "sections": 6
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "sections": 3
+    },
+    {
+      "id": "services",
+      "path": "/services",
+      "sections": 3
     },
     {
       "id": "contact",
@@ -14,56 +24,62 @@
       "sections": 3
     },
     {
-      "id": "features",
-      "path": "/features",
-      "sections": 3
+      "id": "shop",
+      "path": "/shop",
+      "sections": 2
     },
     {
-      "id": "security",
-      "path": "/security",
-      "sections": 3
-    },
-    {
-      "id": "download",
-      "path": "/download",
-      "sections": 3
-    },
-    {
-      "id": "support",
-      "path": "/support",
-      "sections": 3
-    },
-    {
-      "id": "messages",
-      "path": "/messages",
+      "id": "login",
+      "path": "/login",
       "sections": 1
     },
     {
-      "id": "profile",
-      "path": "/profile",
-      "sections": 1
-    },
-    {
-      "id": "friends",
-      "path": "/friends",
+      "id": "register",
+      "path": "/register",
       "sections": 1
     }
   ],
   "nav_items": [
     {
-      "label": "Messages",
+      "label": "Home",
       "to": "/"
     },
     {
-      "label": "Support",
+      "label": "Shop",
+      "to": "/shop"
+    },
+    {
+      "label": "Services",
+      "to": "/services"
+    },
+    {
+      "label": "About",
+      "to": "/about"
+    },
+    {
+      "label": "Contact",
       "to": "/contact"
+    },
+    {
+      "label": "Login",
+      "to": "/login"
+    },
+    {
+      "label": "Register",
+      "to": "/register"
+    },
+    {
+      "label": "Checkout",
+      "to": "/checkout"
     }
   ],
   "extra_routes": [
+    "/product/:id",
+    "/checkout",
     "/login",
     "/signup"
   ],
   "message": "RNIE lite \u2014 page DNA routes + navigation map",
   "implemented": true,
-  "ts": 1786905938.602127
+  "ts": 1786488311.873494
 }
