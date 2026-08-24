@@ -1,7 +1,7 @@
 {
   "engine": "DHOE",
   "level": "lite",
-  "ts": 1786905938.6025012,
+  "ts": 1786488311.8740432,
   "count": 17,
   "engines": {
     "SMIE": {
@@ -80,7 +80,7 @@
       "ok": true,
       "level": "lite",
       "path": "dwene/engines/bmie.json",
-      "message": "BMIE lite \u2014 from-scratch `chat` + 4 backend modules"
+      "message": "BMIE lite \u2014 from-scratch `retail` + 4 backend modules"
     },
     "SSAE": {
       "ok": true,
