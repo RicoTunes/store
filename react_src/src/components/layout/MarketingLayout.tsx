@@ -15,7 +15,7 @@ export function MarketingLayout({
   brand,
   navItems,
   navVariant = 'top',
-  footerVariant = "multi-column",
+  footerVariant = "True",
   mobileNavPattern = "drawer",
 }: {
   brand: string;
