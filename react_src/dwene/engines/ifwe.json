@@ -4,9 +4,19 @@
   "level": "lite",
   "forms": [
     "ContactForm",
+    "Checkout",
     "Auth"
   ],
   "workflows": [
+    {
+      "id": "checkout",
+      "steps": [
+        "cart",
+        "details",
+        "pay",
+        "verify"
+      ]
+    },
     {
       "id": "onboarding",
       "steps": [
@@ -18,5 +28,5 @@
   "validation": "zod",
   "message": "IFWE lite \u2014 form surfaces + multi-step workflow map from intent",
   "implemented": true,
-  "ts": 1786905938.60218
+  "ts": 1786488311.873664
 }
