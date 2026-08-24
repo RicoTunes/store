@@ -5,7 +5,7 @@
       "file": "src/components/ui/Button.tsx",
       "id": "Button",
       "name": "Button",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Primary interactive control with variants",
       "status": "active",
       "variants": [
@@ -21,7 +21,7 @@
       "file": "src/components/ui/Container.tsx",
       "id": "Container",
       "name": "Container",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Centered content width wrapper",
       "status": "active",
       "variants": [
@@ -34,7 +34,7 @@
       "file": "src/components/sections/Section.tsx",
       "id": "Section",
       "name": "Section",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Generic content section with title and body",
       "status": "active",
       "variants": [
@@ -47,7 +47,7 @@
       "file": "src/components/sections/Hero.tsx",
       "id": "Hero",
       "name": "Hero",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Marketing hero with headline, media, and optional slider",
       "status": "active",
       "variants": [
@@ -55,14 +55,7 @@
         "cinematic-slider",
         "editorial",
         "media-stack",
-        "minimal-glow",
-        "typography-first",
-        "full-bleed",
-        "asymmetric",
-        "product-first",
-        "search-first",
-        "no-hero",
-        "data-hero"
+        "minimal-glow"
       ],
       "version": "1.0.0"
     },
@@ -71,7 +64,7 @@
       "file": "src/components/sections/Gallery.tsx",
       "id": "Gallery",
       "name": "Gallery",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Photo gallery with lightbox",
       "status": "active",
       "variants": [
@@ -84,7 +77,7 @@
       "file": "src/components/sections/FeatureGrid.tsx",
       "id": "FeatureGrid",
       "name": "FeatureGrid",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Feature / service card grid",
       "status": "active",
       "variants": [
@@ -97,7 +90,7 @@
       "file": "src/components/sections/CTA.tsx",
       "id": "CTA",
       "name": "CTA",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Call-to-action band",
       "status": "active",
       "variants": [
@@ -110,7 +103,7 @@
       "file": "src/components/sections/Pricing.tsx",
       "id": "Pricing",
       "name": "Pricing",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Pricing plans grid",
       "status": "active",
       "variants": [
@@ -123,7 +116,7 @@
       "file": "src/components/sections/FAQ.tsx",
       "id": "FAQ",
       "name": "FAQ",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Frequently asked questions",
       "status": "active",
       "variants": [
@@ -136,7 +129,7 @@
       "file": "src/components/sections/Testimonials.tsx",
       "id": "Testimonials",
       "name": "Testimonials",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Customer testimonials",
       "status": "active",
       "variants": [
@@ -149,7 +142,7 @@
       "file": "src/components/sections/Timeline.tsx",
       "id": "Timeline",
       "name": "Timeline",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Horizontal milestone timeline",
       "status": "active",
       "variants": [
@@ -162,7 +155,7 @@
       "file": "src/components/sections/ProcessSteps.tsx",
       "id": "ProcessSteps",
       "name": "ProcessSteps",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Numbered process steps",
       "status": "active",
       "variants": [
@@ -175,7 +168,7 @@
       "file": "src/components/sections/StatStrip.tsx",
       "id": "StatStrip",
       "name": "StatStrip",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Large numeral statistics strip",
       "status": "active",
       "variants": [
@@ -188,7 +181,7 @@
       "file": "src/components/sections/Comparison.tsx",
       "id": "Comparison",
       "name": "Comparison",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Side-by-side comparison table",
       "status": "active",
       "variants": [
@@ -201,7 +194,7 @@
       "file": "src/components/sections/TeamGrid.tsx",
       "id": "TeamGrid",
       "name": "TeamGrid",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Editorial team member layout",
       "status": "active",
       "variants": [
@@ -214,7 +207,7 @@
       "file": "src/components/sections/Editorial.tsx",
       "id": "Editorial",
       "name": "Editorial",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Asymmetric editorial story layout",
       "status": "active",
       "variants": [
@@ -227,7 +220,7 @@
       "file": "src/components/sections/Showcase.tsx",
       "id": "Showcase",
       "name": "Showcase",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Featured showcase with asymmetric split",
       "status": "active",
       "variants": [
@@ -240,7 +233,7 @@
       "file": "src/components/sections/ContactForm.tsx",
       "id": "ContactForm",
       "name": "ContactForm",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Contact form section",
       "status": "active",
       "variants": [
@@ -253,7 +246,7 @@
       "file": "src/components/sections/ProductGrid.tsx",
       "id": "ProductGrid",
       "name": "ProductGrid",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Product catalog with add-to-cart",
       "status": "active",
       "variants": [
@@ -266,7 +259,7 @@
       "file": "src/components/sections/ChatShell.tsx",
       "id": "ChatShell",
       "name": "ChatShell",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Messenger shell",
       "status": "active",
       "variants": [
@@ -279,7 +272,7 @@
       "file": "src/components/sections/BlogFeed.tsx",
       "id": "BlogFeed",
       "name": "BlogFeed",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Blog post grid",
       "status": "active",
       "variants": [
@@ -292,7 +285,7 @@
       "file": "src/components/sections/WalletPanel.tsx",
       "id": "WalletPanel",
       "name": "WalletPanel",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Non-custodial wallet panel",
       "status": "active",
       "variants": [
@@ -305,7 +298,7 @@
       "file": "src/components/sections/MenuBoard.tsx",
       "id": "MenuBoard",
       "name": "MenuBoard",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Restaurant menu board",
       "status": "active",
       "variants": [
@@ -318,7 +311,7 @@
       "file": "src/components/sections/BookingShell.tsx",
       "id": "BookingShell",
       "name": "BookingShell",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Appointment booking",
       "status": "active",
       "variants": [
@@ -331,7 +324,7 @@
       "file": "src/components/sections/OrdersBoard.tsx",
       "id": "OrdersBoard",
       "name": "OrdersBoard",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Orders list",
       "status": "active",
       "variants": [
@@ -344,138 +337,8 @@
       "file": "src/components/sections/SocialFeed.tsx",
       "id": "SocialFeed",
       "name": "SocialFeed",
-      "project": "RicoGram",
-      "purpose": "Social feed with posts, comments, media, and notifications",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/ProfileShell.tsx",
-      "id": "ProfileShell",
-      "name": "ProfileShell",
-      "project": "RicoGram",
-      "purpose": "Member profile with bio, posts, and friend actions",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/FriendsShell.tsx",
-      "id": "FriendsShell",
-      "name": "FriendsShell",
-      "project": "RicoGram",
-      "purpose": "Friends list, requests, and people search",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/GroupsShell.tsx",
-      "id": "GroupsShell",
-      "name": "GroupsShell",
-      "project": "RicoGram",
-      "purpose": "Community groups with membership and group feed",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/JobsShell.tsx",
-      "id": "JobsShell",
-      "name": "JobsShell",
-      "project": "RicoGram",
-      "purpose": "Jobs board with posting and applications",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/SavedShell.tsx",
-      "id": "SavedShell",
-      "name": "SavedShell",
-      "project": "RicoGram",
-      "purpose": "Bookmarked posts",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/ExploreShell.tsx",
-      "id": "ExploreShell",
-      "name": "ExploreShell",
-      "project": "RicoGram",
-      "purpose": "Hashtags, ranked explore, videos",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/ReelsShell.tsx",
-      "id": "ReelsShell",
-      "name": "ReelsShell",
-      "project": "RicoGram",
-      "purpose": "Vertical video viewer",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/NotifsShell.tsx",
-      "id": "NotifsShell",
-      "name": "NotifsShell",
-      "project": "RicoGram",
-      "purpose": "In-app notification center",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/ReportsShell.tsx",
-      "id": "ReportsShell",
-      "name": "ReportsShell",
-      "project": "RicoGram",
-      "purpose": "Admin reports inbox",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "app",
-      "file": "src/components/sections/BrandPagesShell.tsx",
-      "id": "BrandPagesShell",
-      "name": "BrandPagesShell",
-      "project": "RicoGram",
-      "purpose": "Brand pages with follow and page detail",
+      "project": "Sneaks",
+      "purpose": "Social feed composer",
       "status": "active",
       "variants": [
         "default"
@@ -487,7 +350,7 @@
       "file": "src/components/sections/AiMessengerShell.tsx",
       "id": "AiMessengerShell",
       "name": "AiMessengerShell",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "AI messenger",
       "status": "active",
       "variants": [
@@ -500,7 +363,7 @@
       "file": "src/components/sections/AgentConsole.tsx",
       "id": "AgentConsole",
       "name": "AgentConsole",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Agent run console",
       "status": "active",
       "variants": [
@@ -513,7 +376,7 @@
       "file": "src/components/sections/DashboardShell.tsx",
       "id": "DashboardShell",
       "name": "DashboardShell",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "KPI dashboard",
       "status": "active",
       "variants": [
@@ -526,7 +389,7 @@
       "file": "src/components/sections/PortalShell.tsx",
       "id": "PortalShell",
       "name": "PortalShell",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "LMS course portal",
       "status": "active",
       "variants": [
@@ -539,7 +402,7 @@
       "file": "src/components/sections/DirectoryShell.tsx",
       "id": "DirectoryShell",
       "name": "DirectoryShell",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Directory / records list",
       "status": "active",
       "variants": [
@@ -552,7 +415,7 @@
       "file": "src/components/layout/Navbar.tsx",
       "id": "Navbar",
       "name": "Navbar",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Top marketing navigation",
       "status": "active",
       "variants": [
@@ -565,7 +428,7 @@
       "file": "src/components/layout/Footer.tsx",
       "id": "Footer",
       "name": "Footer",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Site footer",
       "status": "active",
       "variants": [
@@ -578,39 +441,11 @@
       "file": "src/components/layout/MarketingLayout.tsx",
       "id": "MarketingLayout",
       "name": "MarketingLayout",
-      "project": "RicoGram",
+      "project": "Sneaks",
       "purpose": "Navbar + outlet + Footer shell",
       "status": "active",
       "variants": [
         "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "layout",
-      "file": "src/components/layout/SocialLayout.tsx",
-      "id": "SocialLayout",
-      "name": "SocialLayout",
-      "project": "RicoGram",
-      "purpose": "SocialShell: topbar + sidebar + outlet + mobile bottom nav (SOCIAL_NETWORK_APP)",
-      "status": "active",
-      "variants": [
-        "default"
-      ],
-      "version": "1.0.0"
-    },
-    {
-      "category": "layout",
-      "file": "src/components/layout/MessengerLayout.tsx",
-      "id": "MessengerLayout",
-      "name": "MessengerLayout",
-      "project": "RicoGram",
-      "purpose": "Pure messenger chrome: slim app bar + full-height chat (no marketing footer)",
-      "status": "active",
-      "variants": [
-        "app-bar",
-        "minimal",
-        "solid-brand"
       ],
       "version": "1.0.0"
     }
@@ -644,16 +479,6 @@
       "BookingShell",
       "OrdersBoard",
       "SocialFeed",
-      "ProfileShell",
-      "FriendsShell",
-      "GroupsShell",
-      "JobsShell",
-      "SavedShell",
-      "ExploreShell",
-      "ReelsShell",
-      "NotifsShell",
-      "ReportsShell",
-      "BrandPagesShell",
       "AiMessengerShell",
       "AgentConsole",
       "DashboardShell",
@@ -661,9 +486,7 @@
       "DirectoryShell",
       "Navbar",
       "Footer",
-      "MarketingLayout",
-      "SocialLayout",
-      "MessengerLayout"
+      "MarketingLayout"
     ]
   },
   "version": 1
