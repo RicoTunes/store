@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Container } from '@/components/ui/Container';
 
-const FOOTER_VARIANT = "multi-column";
+const FOOTER_VARIANT = "True";
 
 function FooterWatermark({ brand, year }: { brand: string; year: number }) {
   return (
