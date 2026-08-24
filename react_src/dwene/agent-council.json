@@ -50,37 +50,36 @@
     {
       "id": "inspire",
       "status": "done",
-      "app_kind": "chat",
+      "app_kind": "shop",
       "crawl_ok": false,
       "reference_url": "",
       "section_anchors": [],
       "theme_locked": false,
-      "suggested_title": "RicoGram",
+      "suggested_title": "Sneaks",
       "stance": "blueprint_not_clone"
     },
     {
       "id": "architect_plan",
       "status": "done",
       "source": "llm",
-      "vertical": "chat",
+      "vertical": "retail",
       "pages": [
         "home",
-        "features",
-        "security",
-        "download",
-        "support"
+        "shop",
+        "about",
+        "contact"
       ]
     },
     {
       "id": "architect",
       "status": "done",
       "intent": {
-        "cart": false,
+        "cart": true,
         "auth": true,
         "multipage": true,
         "marketing_only": false,
         "admin": false,
-        "chat": true,
+        "chat": false,
         "blog": false,
         "crypto": false,
         "social": false,
@@ -92,31 +91,22 @@
         "menu": false,
         "orders": false,
         "portal": false,
-        "vertical": "chat",
+        "vertical": "retail",
         "business_template": "",
         "modules": [
           "auth",
-          "messenger",
-          "profile",
-          "friends"
+          "catalog",
+          "cart",
+          "payments"
         ],
-        "from_scratch": true,
-        "product_family": "messenger",
-        "product_category": "12 \u2014 Messaging & Chat",
-        "catalog_match": {
-          "alias": "",
-          "score": 37,
-          "design_family": "social"
-        },
-        "design_family": "social",
-        "compliance": []
+        "from_scratch": true
       },
       "business_template": "",
       "modules": [
         "auth",
-        "messenger",
-        "profile",
-        "friends"
+        "catalog",
+        "cart",
+        "payments"
       ]
     },
     {
@@ -132,15 +122,15 @@
         "motion": "subtle",
         "density": "comfortable"
       },
-      "design_variant": "night",
-      "archetype": "neo-brutalist",
-      "heroStrategy": "no-hero",
+      "design_variant": "product",
+      "archetype": "playful",
+      "heroStrategy": "media-stack",
       "navPattern": "floating",
-      "noveltyScore": 0.7807,
-      "signature": "no-hero|floating|feed-team-cta|editorial|brutalist|cards|space-dm|compact|scale|layered|text-floating-beside|none|scale|dots|beside-cta",
-      "designSeed": "ac3d30ce13a5a600",
-      "cardStrategy": "cards",
-      "artMood": "bold",
+      "noveltyScore": 1.0,
+      "signature": "media-stack|floating|hero-catalog-process-gallery-testimonials-cta|12-column|pill|tiles|space-dm|airy|stagger|modular",
+      "designSeed": "0a9201ea0a7234be",
+      "cardStrategy": "tiles",
+      "artMood": "dynamic",
       "sectionInvention": null
     },
     {
@@ -180,16 +170,6 @@
           "BookingShell",
           "OrdersBoard",
           "SocialFeed",
-          "ProfileShell",
-          "FriendsShell",
-          "GroupsShell",
-          "JobsShell",
-          "SavedShell",
-          "ExploreShell",
-          "ReelsShell",
-          "NotifsShell",
-          "ReportsShell",
-          "BrandPagesShell",
           "AiMessengerShell",
           "AgentConsole",
           "DashboardShell",
@@ -197,9 +177,7 @@
           "DirectoryShell",
           "Navbar",
           "Footer",
-          "MarketingLayout",
-          "SocialLayout",
-          "MessengerLayout"
+          "MarketingLayout"
         ]
       }
     },
@@ -210,13 +188,14 @@
         "src/services/apiClient.ts",
         "src/config/site.ts",
         "src/contexts/AuthContext.tsx",
-        "src/components/layout/AuthSplitLayout.tsx",
         "src/pages/LoginPage.tsx",
         "src/pages/RegisterPage.tsx",
         "src/pages/ForgotPasswordPage.tsx",
         "src/pages/ResetPasswordPage.tsx",
         "src/components/routing/ProtectedRoute.tsx",
         "src/contexts/CartContext.tsx",
+        "src/pages/CheckoutPage.tsx",
+        "src/pages/ProductDetailPage.tsx",
         "src/contexts/WalletContext.tsx",
         "src/app/Providers.tsx",
         "public/robots.txt",
@@ -226,12 +205,12 @@
         "dwene/design-variants.json"
       ],
       "intent": {
-        "cart": false,
+        "cart": true,
         "auth": true,
         "multipage": true,
         "marketing_only": false,
         "admin": false,
-        "chat": true,
+        "chat": false,
         "blog": false,
         "crypto": false,
         "social": false,
@@ -243,77 +222,71 @@
         "menu": false,
         "orders": false,
         "portal": false,
-        "vertical": "chat",
+        "vertical": "retail",
         "business_template": "",
         "modules": [
           "auth",
-          "messenger",
-          "profile",
-          "friends"
+          "catalog",
+          "cart",
+          "payments"
         ],
-        "from_scratch": true,
-        "product_family": "messenger",
-        "product_category": "12 \u2014 Messaging & Chat",
-        "catalog_match": {
-          "alias": "",
-          "score": 37,
-          "design_family": "social"
-        },
-        "design_family": "social",
-        "compliance": []
+        "from_scratch": true
       }
     },
     {
       "id": "fixer",
       "status": "done",
-      "passes": 0,
-      "ok": true,
-      "issues": [],
-      "repairs": []
+      "passes": 3,
+      "ok": false,
+      "issues": [
+        "Cart intent missing catalog module"
+      ],
+      "repairs": [
+        "Added missing home:features",
+        "Filled thin about page",
+        "Upgraded contact page with ContactForm",
+        "Added missing login page for auth intent",
+        "Added missing register page for auth intent",
+        "Synced navigation from page routes",
+        "Refreshed component library + registry",
+        "Synced navigation from page routes",
+        "Synced navigation from page routes",
+        "Refreshed component library + registry",
+        "Synced navigation from page routes",
+        "Refreshed component library + registry",
+        "Synced navigation from page routes",
+        "Synced navigation from page routes",
+        "Refreshed component library + registry",
+        "Synced navigation from page routes",
+        "Refreshed component library + registry",
+        "Synced navigation from page routes",
+        "Synced navigation from page routes",
+        "Refreshed component library + registry"
+      ]
     },
     {
       "id": "composer",
       "status": "done",
       "files": [
+        "src/data/catalog.ts",
         "src/pages/HomePage.tsx",
+        "src/pages/AboutPage.tsx",
+        "src/pages/ServicesPage.tsx",
         "src/pages/ContactPage.tsx",
-        "src/pages/FeaturesPage.tsx",
-        "src/pages/SecurityPage.tsx",
-        "src/pages/DownloadPage.tsx",
-        "src/pages/SupportPage.tsx",
-        "src/pages/MessagesPage.tsx",
-        "src/pages/ProfilePage.tsx",
-        "src/pages/FriendsPage.tsx",
+        "src/pages/ShopPage.tsx",
         "src/App.tsx",
         "src/main.tsx",
-        "src/design-system/product-design.css",
         "src/index.css"
       ]
     },
     {
       "id": "similarity",
       "status": "pass",
-      "noveltyScore": 0.7807,
+      "noveltyScore": 1.0,
       "similarity": {
-        "heroSimilarity": 1.0,
-        "navSimilarity": 0.0,
-        "section_orderSimilarity": 0.0667,
-        "gridSimilarity": 0.0,
-        "chromeSimilarity": 0.0,
-        "card_strategySimilarity": 0.0,
-        "typographySimilarity": 0.0,
-        "densitySimilarity": 0.0,
-        "motionSimilarity": 0.0,
-        "layoutSimilarity": 0.0,
-        "backgroundSimilarity": 1.0,
-        "hero_compositionSimilarity": 0.0,
-        "slider_architectureSimilarity": 1.0,
-        "image_transitionSimilarity": 0.0,
-        "indicator_styleSimilarity": 0.0,
-        "indicator_positionSimilarity": 0.0,
-        "overallSimilarity": 0.2193,
-        "structuralSimilarity": 0.3147,
-        "match": "EsQ-oKABxv0FymDQSbttkU5d5cPOmXXj0U4-v3QKuLs"
+        "overallSimilarity": 0.0,
+        "structuralSimilarity": 0.0,
+        "match": null
       },
       "regens": 0
     },
@@ -321,17 +294,14 @@
       "id": "supreme_quality",
       "status": "best_effort",
       "ok": false,
-      "overall": 83.5,
+      "overall": 87.2,
       "failing": [
-        "visualExcellence",
-        "ux",
         "accessibility",
-        "originality",
         "overall"
       ],
       "polishPasses": 2,
       "structuralRegen": false,
-      "artMood": "bold"
+      "artMood": "dynamic"
     },
     {
       "id": "visual_builder",
@@ -345,7 +315,7 @@
         "VBLE"
       ],
       "nodes": 19,
-      "rules": 2
+      "rules": 3
     },
     {
       "id": "admin_os",
@@ -356,8 +326,8 @@
       "id": "build",
       "status": "done",
       "compile_mode": "vite",
-      "base_href": "/api/ai/sites/dwene-site-17ee6196/",
-      "dist": "/data/generated_docs/dwene-site-17ee6196/dist"
+      "base_href": "/api/ai/sites/beam-site-ddfb9e75/",
+      "dist": "/data/generated_docs/beam-site-ddfb9e75/dist"
     },
     {
       "id": "review",
